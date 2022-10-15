@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:granite"
+    },
+    "result": "mcwpaths:granite_clover_paving",
+    "group": "paths",
+    "count": 1
+}

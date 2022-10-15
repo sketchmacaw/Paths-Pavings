@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwpaths:diorite_diamond_paving",
+	  "mcwpaths:diorite_basket_weave_paving",
+      "mcwpaths:diorite_square_paving",
+	  "mcwpaths:diorite_honeycomb_paving",
+	  "mcwpaths:diorite_clover_paving",
+	  "mcwpaths:diorite_dumble_paving"
+    ]
+  },
+  "criteria": {
+    "has_diorite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diorite"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_diorite"
+    ]
+  ]
+}

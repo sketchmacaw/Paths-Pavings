@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwpaths:brick_diamond_paving",
+	  "mcwpaths:brick_basket_weave_paving",
+      "mcwpaths:brick_square_paving",
+	  "mcwpaths:brick_honeycomb_paving",
+	  "mcwpaths:brick_clover_paving",
+	  "mcwpaths:brick_dumble_paving"
+    ]
+  },
+  "criteria": {
+    "has_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bricks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bricks"
+    ]
+  ]
+}

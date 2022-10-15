@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+		"AA"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:crimson_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwpaths:crimson_planks_path",
+        "count": 6
+    }
+}
+
+

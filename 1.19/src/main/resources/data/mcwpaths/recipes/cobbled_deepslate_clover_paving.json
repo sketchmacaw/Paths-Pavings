@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:cobbled_deepslate"
+    },
+    "result": "mcwpaths:cobbled_deepslate_clover_paving",
+    "group": "paths",
+    "count": 4
+}

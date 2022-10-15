@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwpaths:andesite_diamond_paving",
+	  "mcwpaths:andesite_basket_weave_paving",
+      "mcwpaths:andesite_square_paving",
+	  "mcwpaths:andesite_honeycomb_paving",
+	  "mcwpaths:andesite_clover_paving",
+	  "mcwpaths:andesite_dumble_paving"
+    ]
+  },
+  "criteria": {
+    "has_andesite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:andesite"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_andesite"
+    ]
+  ]
+}

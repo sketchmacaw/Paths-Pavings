@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwpaths:red_sandstone_diamond_paving",
+	  "mcwpaths:red_sandstone_basket_weave_paving",
+      "mcwpaths:red_sandstone_square_paving",
+	  "mcwpaths:red_sandstone_honeycomb_paving",
+	  "mcwpaths:red_sandstone_clover_paving",
+	  "mcwpaths:red_sandstone_dumble_paving"
+    ]
+  },
+  "criteria": {
+    "has_rsandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_sandstone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_rsandstone"
+    ]
+  ]
+}

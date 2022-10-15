@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:andesite"
+    },
+    "result": "mcwpaths:andesite_square_paving",
+    "group": "paths",
+    "count": 4
+}

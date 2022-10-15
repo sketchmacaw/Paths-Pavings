@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+		"AA"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:mangrove_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwpaths:mangrove_planks_path",
+        "count": 6
+    }
+}
+
+

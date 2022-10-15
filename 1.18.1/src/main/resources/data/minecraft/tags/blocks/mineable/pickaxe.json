@@ -1,0 +1,74 @@
+{
+  "replace": false,
+  "values": [
+	"mcwpaths:andesite_diamond_paving",
+	"mcwpaths:andesite_basket_weave_paving",
+	"mcwpaths:andesite_square_paving",
+	"mcwpaths:andesite_honeycomb_paving",
+	"mcwpaths:andesite_clover_paving",
+	"mcwpaths:andesite_dumble_paving",
+	
+	"mcwpaths:diorite_diamond_paving",
+	"mcwpaths:diorite_basket_weave_paving",
+	"mcwpaths:diorite_square_paving",
+	"mcwpaths:diorite_honeycomb_paving",
+	"mcwpaths:diorite_clover_paving",
+	"mcwpaths:diorite_dumble_paving",
+	
+	"mcwpaths:granite_diamond_paving",
+	"mcwpaths:granite_basket_weave_paving",
+	"mcwpaths:granite_square_paving",
+	"mcwpaths:granite_honeycomb_paving",
+	"mcwpaths:granite_clover_paving",
+	"mcwpaths:granite_dumble_paving",
+	
+	"mcwpaths:sandstone_diamond_paving",
+	"mcwpaths:sandstone_basket_weave_paving",
+	"mcwpaths:sandstone_square_paving",
+	"mcwpaths:sandstone_honeycomb_paving",
+	"mcwpaths:sandstone_clover_paving",
+	"mcwpaths:sandstone_dumble_paving",
+	
+	"mcwpaths:red_sandstone_diamond_paving",
+	"mcwpaths:red_sandstone_basket_weave_paving",
+	"mcwpaths:red_sandstone_square_paving",
+	"mcwpaths:red_sandstone_honeycomb_paving",
+	"mcwpaths:red_sandstone_clover_paving",
+	"mcwpaths:red_sandstone_dumble_paving",
+	
+	"mcwpaths:brick_diamond_paving",
+	"mcwpaths:brick_basket_weave_paving",
+	"mcwpaths:brick_square_paving",
+	"mcwpaths:brick_honeycomb_paving",
+	"mcwpaths:brick_clover_paving",
+	"mcwpaths:brick_dumble_paving",
+	
+	"mcwpaths:cobblestone_diamond_paving",
+	"mcwpaths:cobblestone_basket_weave_paving",
+	"mcwpaths:cobblestone_square_paving",
+	"mcwpaths:cobblestone_honeycomb_paving",
+	"mcwpaths:cobblestone_clover_paving",
+	"mcwpaths:cobblestone_dumble_paving",
+	
+	"mcwpaths:mossy_cobblestone_diamond_paving",
+	"mcwpaths:mossy_cobblestone_basket_weave_paving",
+	"mcwpaths:mossy_cobblestone_square_paving",
+	"mcwpaths:mossy_cobblestone_honeycomb_paving",
+	"mcwpaths:mossy_cobblestone_clover_paving",
+	"mcwpaths:mossy_cobblestone_dumble_paving",
+	
+	"mcwpaths:cobbled_deepslate_diamond_paving",
+	"mcwpaths:cobbled_deepslate_basket_weave_paving",
+	"mcwpaths:cobbled_deepslate_square_paving",
+	"mcwpaths:cobbled_deepslate_honeycomb_paving",
+	"mcwpaths:cobbled_deepslate_clover_paving",
+	"mcwpaths:cobbled_deepslate_dumble_paving",
+	
+	"mcwpaths:deepslate_diamond_paving",
+	"mcwpaths:deepslate_basket_weave_paving",
+	"mcwpaths:deepslate_square_paving",
+	"mcwpaths:deepslate_honeycomb_paving",
+	"mcwpaths:deepslate_clover_paving",
+	"mcwpaths:deepslate_dumble_paving"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/wooden",
+  "textures": {
+	"particle": "mcwpaths:block/warped_planks_path",
+    "pavement": "mcwpaths:block/warped_planks_path"
+  }
+}

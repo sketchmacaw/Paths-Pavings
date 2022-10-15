@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwpaths:cobblestone_diamond_paving",
+	  "mcwpaths:cobblestone_basket_weave_paving",
+      "mcwpaths:cobblestone_square_paving",
+	  "mcwpaths:cobblestone_honeycomb_paving",
+	  "mcwpaths:cobblestone_clover_paving",
+	  "mcwpaths:cobblestone_dumble_paving"
+    ]
+  },
+  "criteria": {
+    "has_this": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cobblestone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_this"
+    ]
+  ]
+}

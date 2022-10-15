@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+		"AA"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:birch_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwpaths:birch_planks_path",
+        "count": 6
+    }
+}
+
+

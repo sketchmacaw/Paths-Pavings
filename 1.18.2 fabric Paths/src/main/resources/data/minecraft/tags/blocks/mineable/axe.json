@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+	"mcwpaths:oak_planks_path",
+	"mcwpaths:spruce_planks_path",
+	"mcwpaths:birch_planks_path",
+	"mcwpaths:jungle_planks_path",
+	"mcwpaths:acacia_planks_path",
+	"mcwpaths:dark_oak_planks_path",
+	"mcwpaths:crimson_planks_path",
+	"mcwpaths:warped_planks_path"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:cobblestone"
+    },
+    "result": "mcwpaths:cobblestone_dumble_paving",
+    "group": "paths",
+    "count": 1
+}

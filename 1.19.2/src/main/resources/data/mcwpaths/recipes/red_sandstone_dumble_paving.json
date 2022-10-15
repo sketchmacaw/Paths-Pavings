@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:red_sandstone"
+    },
+    "result": "mcwpaths:red_sandstone_dumble_paving",
+    "group": "paths",
+    "count": 4
+}

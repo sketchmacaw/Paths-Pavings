@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:mossy_cobblestone"
+    },
+    "result": "mcwpaths:mossy_cobblestone_honeycomb_paving",
+    "group": "paths",
+    "count": 4
+}

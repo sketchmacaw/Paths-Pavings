@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+		"AA"
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:acacia_slab"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwpaths:acacia_planks_path",
+        "count": 6
+    }
+}
+
+

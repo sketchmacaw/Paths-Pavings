@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwpaths:deepslate_diamond_paving",
+	  "mcwpaths:deepslate_basket_weave_paving",
+      "mcwpaths:deepslate_square_paving",
+	  "mcwpaths:deepslate_honeycomb_paving",
+	  "mcwpaths:deepslate_clover_paving",
+	  "mcwpaths:deepslate_dumble_paving"
+    ]
+  },
+  "criteria": {
+    "has_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:deepslate_tiles"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_deepslate"
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwpaths:mossy_cobblestone_diamond_paving",
+	  "mcwpaths:mossy_cobblestone_basket_weave_paving",
+      "mcwpaths:mossy_cobblestone_square_paving",
+	  "mcwpaths:mossy_cobblestone_honeycomb_paving",
+	  "mcwpaths:mossy_cobblestone_clover_paving",
+	  "mcwpaths:mossy_cobblestone_dumble_paving"
+    ]
+  },
+  "criteria": {
+    "has_mossy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mossy_cobblestone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mossy"
+    ]
+  ]
+}
