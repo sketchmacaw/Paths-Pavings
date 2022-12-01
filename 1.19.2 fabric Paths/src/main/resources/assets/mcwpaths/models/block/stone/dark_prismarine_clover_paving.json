@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/clover",
+  "textures": {
+	"particle": "mcwpaths:block/dark_prismarine_clover_paving",
+    "0": "mcwpaths:block/dark_prismarine_clover_paving"
+  }
+}

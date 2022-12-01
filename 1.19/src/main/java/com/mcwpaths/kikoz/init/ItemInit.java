@@ -102,4 +102,20 @@ public class ItemInit {
 	public static final RegistryObject<Item> MUD_BRICK_CLOVER_PAVING = ITEMS.register("mud_brick_clover_paving",() -> new BlockItem(BlockInit.MUD_BRICK_CLOVER_PAVING.get(), new Item.Properties().tab(MacawsPaths.PathsItemGroup)));
 	public static final RegistryObject<Item> MUD_BRICK_DUMBLE_PAVING = ITEMS.register("mud_brick_dumble_paving",() -> new BlockItem(BlockInit.MUD_BRICK_DUMBLE_PAVING.get(), new Item.Properties().tab(MacawsPaths.PathsItemGroup)));
 
+	//1.0.2 Update
+	
+	public static final RegistryObject<Item> BLACKSTONE_DIAMOND_PAVING = ITEMS.register("blackstone_diamond_paving",() -> new BlockItem(BlockInit.BLACKSTONE_DIAMOND_PAVING.get(), new Item.Properties().tab(MacawsPaths.PathsItemGroup)));
+	public static final RegistryObject<Item> BLACKSTONE_BASKET_WEAVE_PAVING = ITEMS.register("blackstone_basket_weave_paving",() -> new BlockItem(BlockInit.BLACKSTONE_BASKET_WEAVE_PAVING.get(), new Item.Properties().tab(MacawsPaths.PathsItemGroup)));
+	public static final RegistryObject<Item> BLACKSTONE_SQUARE_PAVING = ITEMS.register("blackstone_square_paving",() -> new BlockItem(BlockInit.BLACKSTONE_SQUARE_PAVING.get(), new Item.Properties().tab(MacawsPaths.PathsItemGroup)));
+	public static final RegistryObject<Item> BLACKSTONE_HONEYCOMB_PAVING = ITEMS.register("blackstone_honeycomb_paving",() -> new BlockItem(BlockInit.BLACKSTONE_HONEYCOMB_PAVING.get(), new Item.Properties().tab(MacawsPaths.PathsItemGroup)));
+	public static final RegistryObject<Item> BLACKSTONE_CLOVER_PAVING = ITEMS.register("blackstone_clover_paving",() -> new BlockItem(BlockInit.BLACKSTONE_CLOVER_PAVING.get(), new Item.Properties().tab(MacawsPaths.PathsItemGroup)));
+	public static final RegistryObject<Item> BLACKSTONE_DUMBLE_PAVING = ITEMS.register("blackstone_dumble_paving",() -> new BlockItem(BlockInit.BLACKSTONE_DUMBLE_PAVING.get(), new Item.Properties().tab(MacawsPaths.PathsItemGroup)));
+
+	public static final RegistryObject<Item> DARK_PRISMARINE_DIAMOND_PAVING = ITEMS.register("dark_prismarine_diamond_paving",() -> new BlockItem(BlockInit.DARK_PRISMARINE_DIAMOND_PAVING.get(), new Item.Properties().tab(MacawsPaths.PathsItemGroup)));
+	public static final RegistryObject<Item> DARK_PRISMARINE_BASKET_WEAVE_PAVING = ITEMS.register("dark_prismarine_basket_weave_paving",() -> new BlockItem(BlockInit.DARK_PRISMARINE_BASKET_WEAVE_PAVING.get(), new Item.Properties().tab(MacawsPaths.PathsItemGroup)));
+	public static final RegistryObject<Item> DARK_PRISMARINE_SQUARE_PAVING = ITEMS.register("dark_prismarine_square_paving",() -> new BlockItem(BlockInit.DARK_PRISMARINE_SQUARE_PAVING.get(), new Item.Properties().tab(MacawsPaths.PathsItemGroup)));
+	public static final RegistryObject<Item> DARK_PRISMARINE_HONEYCOMB_PAVING = ITEMS.register("dark_prismarine_honeycomb_paving",() -> new BlockItem(BlockInit.DARK_PRISMARINE_HONEYCOMB_PAVING.get(), new Item.Properties().tab(MacawsPaths.PathsItemGroup)));
+	public static final RegistryObject<Item> DARK_PRISMARINE_CLOVER_PAVING = ITEMS.register("dark_prismarine_clover_paving",() -> new BlockItem(BlockInit.DARK_PRISMARINE_CLOVER_PAVING.get(), new Item.Properties().tab(MacawsPaths.PathsItemGroup)));
+	public static final RegistryObject<Item> DARK_PRISMARINE_DUMBLE_PAVING = ITEMS.register("dark_prismarine_dumble_paving",() -> new BlockItem(BlockInit.DARK_PRISMARINE_DUMBLE_PAVING.get(), new Item.Properties().tab(MacawsPaths.PathsItemGroup)));
+
 }

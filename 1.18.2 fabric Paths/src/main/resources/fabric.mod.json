@@ -13,16 +13,13 @@
     "sources": ""
   },
 
-  "license": "All Rights Reserved",
+  "license": "MIT",
   "icon": "assets/mcwpaths/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "com.mcwpaths.kikoz.MacawsPaths"
-    ],
-	"client": [
-      "com.mcwpaths.kikoz.util.ClientEventBusSubscriber"
     ]
   },
   "mixins": [

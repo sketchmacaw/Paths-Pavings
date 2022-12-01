@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwpaths:blackstone_diamond_paving",
+	  "mcwpaths:blackstone_basket_weave_paving",
+      "mcwpaths:blackstone_square_paving",
+	  "mcwpaths:blackstone_honeycomb_paving",
+	  "mcwpaths:blackstone_clover_paving",
+	  "mcwpaths:blackstone_dumble_paving"
+    ]
+  },
+  "criteria": {
+    "has_blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blackstone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blackstone"
+    ]
+  ]
+}

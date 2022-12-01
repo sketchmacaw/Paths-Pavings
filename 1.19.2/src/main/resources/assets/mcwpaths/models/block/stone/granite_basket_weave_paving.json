@@ -1,7 +1,7 @@
 {
-  "parent": "mcwpaths:block/pavement",
+  "parent": "mcwpaths:block/basket_weave",
   "textures": {
 	"particle": "mcwpaths:block/granite_basket_weave_paving",
-    "pavement": "mcwpaths:block/granite_basket_weave_paving"
+    "0": "mcwpaths:block/granite_basket_weave_paving"
   }
 }

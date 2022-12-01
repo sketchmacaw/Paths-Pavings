@@ -1,18 +1,15 @@
 {
 	"credit": "Made with Blockbench",
 	"parent": "block/thin_block",
-	"textures": {
-		"pavement": "mcwpaths:block/test_path"
-	},
 	"elements": [
 		{
 			"from": [0, 0, 1],
 			"to": [16, 1, 7],
 			"faces": {
-				"north": {"uv": [0, 1, 16, 2], "rotation": 180, "texture": "#pavement", "cullface": "north"},
-				"east": {"uv": [15, 1, 16, 7], "rotation": 90, "texture": "#pavement", "cullface": "east"},
-				"south": {"uv": [0, 6, 16, 7], "rotation": 180, "texture": "#pavement", "cullface": "south"},
-				"west": {"uv": [0, 1, 1, 7], "rotation": 270, "texture": "#pavement", "cullface": "west"},
+				"north": {"uv": [0, 1, 16, 2], "rotation": 180, "texture": "#pavement"},
+				"east": {"uv": [15, 1, 16, 7], "rotation": 90, "texture": "#pavement"},
+				"south": {"uv": [0, 6, 16, 7], "rotation": 180, "texture": "#pavement"},
+				"west": {"uv": [0, 1, 1, 7], "rotation": 270, "texture": "#pavement"},
 				"up": {"uv": [0, 1, 16, 7], "texture": "#pavement"},
 				"down": {"uv": [0, 1, 16, 7], "texture": "#pavement", "cullface": "down"}
 			}
@@ -21,10 +18,10 @@
 			"from": [0, 0, 9],
 			"to": [16, 1, 15],
 			"faces": {
-				"north": {"uv": [0, 1, 16, 2], "rotation": 180, "texture": "#pavement", "cullface": "north"},
-				"east": {"uv": [15, 1, 16, 7], "rotation": 90, "texture": "#pavement", "cullface": "east"},
-				"south": {"uv": [0, 6, 16, 7], "rotation": 180, "texture": "#pavement", "cullface": "south"},
-				"west": {"uv": [0, 1, 1, 7], "rotation": 270, "texture": "#pavement", "cullface": "west"},
+				"north": {"uv": [0, 1, 16, 2], "rotation": 180, "texture": "#pavement"},
+				"east": {"uv": [15, 1, 16, 7], "rotation": 90, "texture": "#pavement"},
+				"south": {"uv": [0, 6, 16, 7], "rotation": 180, "texture": "#pavement"},
+				"west": {"uv": [0, 1, 1, 7], "rotation": 270, "texture": "#pavement"},
 				"up": {"uv": [0, 1, 16, 7], "texture": "#pavement"},
 				"down": {"uv": [0, 1, 16, 7], "texture": "#pavement", "cullface": "down"}
 			}
@@ -56,7 +53,7 @@
 		},
 		"gui": {
 			"rotation": [50, 45, 0],
-			"translation": [0, 1.5, 0],
+			"translation": [0, 3, 0],
 			"scale": [0.65, 0.65, 0.65]
 		},
 		"head": {

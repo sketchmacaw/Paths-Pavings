@@ -1,7 +1,7 @@
 {
-  "parent": "mcwpaths:block/pavement",
+  "parent": "mcwpaths:block/clover",
   "textures": {
 	"particle": "mcwpaths:block/deepslate_clover_paving",
-    "pavement": "mcwpaths:block/deepslate_clover_paving"
+    "0": "mcwpaths:block/deepslate_clover_paving"
   }
 }

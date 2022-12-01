@@ -99,6 +99,22 @@ public class BlockInit {
 	public static final RegistryObject<Block> DEEPSLATE_CLOVER_PAVING = BLOCKS_STONE.register("deepslate_clover_paving", () -> new PathBlock(Block.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_PINK).requiresCorrectToolForDrops().strength(2.0f, 3.3f).sound(SoundType.STONE)));
 	public static final RegistryObject<Block> DEEPSLATE_DUMBLE_PAVING = BLOCKS_STONE.register("deepslate_dumble_paving", () -> new FacingPathBlock(Block.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_PINK).requiresCorrectToolForDrops().strength(2.0f, 3.3f).sound(SoundType.STONE)));
 
+	//1.0.2 Update
+	
+	public static final RegistryObject<Block> BLACKSTONE_DIAMOND_PAVING = BLOCKS.register("blackstone_diamond_paving", () -> new PathBlock(Block.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).requiresCorrectToolForDrops().strength(2.0f, 3.3f).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> BLACKSTONE_BASKET_WEAVE_PAVING = BLOCKS.register("blackstone_basket_weave_paving", () -> new PathBlock(Block.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).requiresCorrectToolForDrops().strength(2.0f, 3.3f).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> BLACKSTONE_SQUARE_PAVING = BLOCKS.register("blackstone_square_paving", () -> new PathBlock(Block.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).requiresCorrectToolForDrops().strength(2.0f, 3.3f).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> BLACKSTONE_HONEYCOMB_PAVING = BLOCKS.register("blackstone_honeycomb_paving", () -> new PathBlock(Block.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).requiresCorrectToolForDrops().strength(2.0f, 3.3f).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> BLACKSTONE_CLOVER_PAVING = BLOCKS.register("blackstone_clover_paving", () -> new PathBlock(Block.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).requiresCorrectToolForDrops().strength(2.0f, 3.3f).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> BLACKSTONE_DUMBLE_PAVING = BLOCKS.register("blackstone_dumble_paving", () -> new FacingPathBlock(Block.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).requiresCorrectToolForDrops().strength(2.0f, 3.3f).sound(SoundType.STONE)));
+
+	public static final RegistryObject<Block> DARK_PRISMARINE_DIAMOND_PAVING = BLOCKS.register("dark_prismarine_diamond_paving", () -> new PathBlock(Block.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).requiresCorrectToolForDrops().strength(2.0f, 3.3f).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> DARK_PRISMARINE_BASKET_WEAVE_PAVING = BLOCKS.register("dark_prismarine_basket_weave_paving", () -> new PathBlock(Block.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).requiresCorrectToolForDrops().strength(2.0f, 3.3f).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> DARK_PRISMARINE_SQUARE_PAVING = BLOCKS.register("dark_prismarine_square_paving", () -> new PathBlock(Block.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).requiresCorrectToolForDrops().strength(2.0f, 3.3f).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> DARK_PRISMARINE_HONEYCOMB_PAVING = BLOCKS.register("dark_prismarine_honeycomb_paving", () -> new PathBlock(Block.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).requiresCorrectToolForDrops().strength(2.0f, 3.3f).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> DARK_PRISMARINE_CLOVER_PAVING = BLOCKS.register("dark_prismarine_clover_paving", () -> new PathBlock(Block.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).requiresCorrectToolForDrops().strength(2.0f, 3.3f).sound(SoundType.STONE)));
+	public static final RegistryObject<Block> DARK_PRISMARINE_DUMBLE_PAVING = BLOCKS.register("dark_prismarine_dumble_paving", () -> new FacingPathBlock(Block.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).requiresCorrectToolForDrops().strength(2.0f, 3.3f).sound(SoundType.STONE)));
+
 	
 	
 

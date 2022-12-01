@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mcwpaths:block/stone/blackstone_dumble_paving"
+    },
+    "facing=north": {
+      "model": "mcwpaths:block/stone/blackstone_dumble_paving",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "mcwpaths:block/stone/blackstone_dumble_paving",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "mcwpaths:block/stone/blackstone_dumble_paving"
+    }
+  }
+}

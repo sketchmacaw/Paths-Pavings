@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwpaths:dark_prismarine_diamond_paving",
+	  "mcwpaths:dark_prismarine_basket_weave_paving",
+      "mcwpaths:dark_prismarine_square_paving",
+	  "mcwpaths:dark_prismarine_honeycomb_paving",
+	  "mcwpaths:dark_prismarine_clover_paving",
+	  "mcwpaths:dark_prismarine_dumble_paving"
+    ]
+  },
+  "criteria": {
+    "has_dark_prismarine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dark_prismarine"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dark_prismarine"
+    ]
+  ]
+}

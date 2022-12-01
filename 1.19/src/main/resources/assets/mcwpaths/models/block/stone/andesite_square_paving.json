@@ -1,7 +1,7 @@
 {
-  "parent": "mcwpaths:block/pavement",
+  "parent": "mcwpaths:block/square",
   "textures": {
 	"particle": "mcwpaths:block/andesite_square_paving",
-    "pavement": "mcwpaths:block/andesite_square_paving"
+    "0": "mcwpaths:block/andesite_square_paving"
   }
 }
