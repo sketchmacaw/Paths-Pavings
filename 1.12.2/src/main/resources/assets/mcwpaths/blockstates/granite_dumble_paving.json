@@ -1,0 +1,25 @@
+{
+  "variants": {
+	"facing=up": {
+      "model": "mcwpaths:stone/granite_dumble_paving"
+    }, 
+	"facing=down": {
+      "model": "mcwpaths:stone/granite_dumble_paving"
+    },  
+    "facing=east": {
+      "model": "mcwpaths:stone/granite_dumble_paving",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "mcwpaths:stone/granite_dumble_paving"
+    },
+    "facing=south": {
+      "model": "mcwpaths:stone/granite_dumble_paving"
+    },
+    "facing=west": {
+      "model": "mcwpaths:stone/granite_dumble_paving",
+      "y": 270
+    }
+}
+
+}

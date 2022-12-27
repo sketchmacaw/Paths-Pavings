@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwpaths:blackstone_diamond_paving",
+	  "mcwpaths:blackstone_basket_weave_paving",
+	  "mcwpaths:blackstone_square_paving",
+	  "mcwpaths:blackstone_honeycomb_paving",
+	  "mcwpaths:blackstone_clover_paving",
+	  "mcwpaths:blackstone_dumble_paving"
+    ]
+  },
+  "criteria": {
+    "has_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stained_hardened_clay",
+            "data": 15
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_planks"
+    ]
+  ]
+}

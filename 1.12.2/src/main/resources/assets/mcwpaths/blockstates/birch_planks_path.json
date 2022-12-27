@@ -1,0 +1,25 @@
+{
+  "variants": {
+	"facing=up": {
+      "model": "mcwpaths:wooden/birch_planks_path"
+    },  
+	"facing=down": {
+      "model": "mcwpaths:wooden/birch_planks_path"
+    },  
+    "facing=east": {
+      "model": "mcwpaths:wooden/birch_planks_path",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "mcwpaths:wooden/birch_planks_path"
+    },
+    "facing=south": {
+      "model": "mcwpaths:wooden/birch_planks_path"
+    },
+    "facing=west": {
+      "model": "mcwpaths:wooden/birch_planks_path",
+      "y": 270
+    }
+}
+
+}

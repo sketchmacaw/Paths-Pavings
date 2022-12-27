@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "clover",
+    
+    "pattern":
+    [
+        "A  ",     
+		" B ", 
+		"  A"	             
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:prismarine",
+            "data": 2
+        },
+		"B":
+        {
+            "item": "minecraft:stone_pressure_plate"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwpaths:dark_prismarine_clover_paving",
+        "count": 8
+    }
+}
+
+

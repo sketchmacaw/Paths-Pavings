@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "basket_weave",
+    
+    "pattern":
+    [
+        "A  ",     
+		"ABA", 
+		"  A"	            
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:stone",
+            "data": 3
+        },
+		"B":
+        {
+            "item": "minecraft:stone_pressure_plate"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwpaths:diorite_basket_weave_paving",
+        "count": 16
+    }
+}
+
+

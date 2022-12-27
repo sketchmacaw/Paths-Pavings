@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "honeycomb",
+    
+    "pattern":
+    [
+        "AA ",     
+		"ABA", 
+		" AA"	             
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:stone",
+            "data": 5
+        },
+		"B":
+        {
+            "item": "minecraft:stone_pressure_plate"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwpaths:andesite_honeycomb_paving",
+        "count": 24
+    }
+}
+
+

@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "clover",
+    
+    "pattern":
+    [
+        "A  ",     
+		" B ", 
+		"  A"	             
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:red_sandstone",
+            "data": 0
+        },
+		"B":
+        {
+            "item": "minecraft:stone_pressure_plate"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwpaths:red_sandstone_clover_paving",
+        "count": 8
+    }
+}
+
+

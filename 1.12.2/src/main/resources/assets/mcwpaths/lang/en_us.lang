@@ -1,0 +1,80 @@
+//Tabs
+itemGroup.macawspathstab=Macaw's Trapdoors
+
+//Blocks
+tile.oak_planks_path.name=Oak Planks Path
+tile.spruce_planks_path.name=Spruce Planks Path
+tile.birch_planks_path.name=Birch Planks Path
+tile.jungle_planks_path.name=Jungle Planks Path
+tile.acacia_planks_path.name=Acacia Planks Path
+tile.dark_oak_planks_path.name=Dark Oak Planks Path
+
+tile.andesite_diamond_paving.name=Andesite Diamond Paving
+tile.andesite_basket_weave_paving.name=Andesite Basket Weave Paving
+tile.andesite_square_paving.name=Andesite Square Paving
+tile.andesite_honeycomb_paving.name=Andesite Honeycomb Paving
+tile.andesite_clover_paving.name=Andesite Clover Paving
+tile.andesite_dumble_paving.name=Andesite Dumble Paving
+
+tile.diorite_diamond_paving.name=Diorite Diamond Paving
+tile.diorite_basket_weave_paving.name=Diorite Basket Weave Paving
+tile.diorite_square_paving.name=Diorite Square Paving
+tile.diorite_honeycomb_paving.name=Diorite Honeycomb Paving
+tile.diorite_clover_paving.name=Diorite Clover Paving
+tile.diorite_dumble_paving.name=Diorite Dumble Paving
+
+tile.granite_diamond_paving.name=Granite Diamond Paving
+tile.granite_basket_weave_paving.name=Granite Basket Weave Paving
+tile.granite_square_paving.name=Granite Square Paving
+tile.granite_honeycomb_paving.name=Granite Honeycomb Paving
+tile.granite_clover_paving.name=Granite Clover Paving
+tile.granite_dumble_paving.name=Granite Dumble Paving
+
+tile.sandstone_diamond_paving.name=Sandstone Diamond Paving
+tile.sandstone_basket_weave_paving.name=Sandstone Basket Weave Paving
+tile.sandstone_square_paving.name=Sandstone Square Paving
+tile.sandstone_honeycomb_paving.name=Sandstone Honeycomb Paving
+tile.sandstone_clover_paving.name=Sandstone Clover Paving
+tile.sandstone_dumble_paving.name=Sandstone Dumble Paving
+
+tile.red_sandstone_diamond_paving.name=Red Sandstone Diamond Paving
+tile.red_sandstone_basket_weave_paving.name=Red Sandstone Basket Weave Paving
+tile.red_sandstone_square_paving.name=Red Sandstone Square Paving
+tile.red_sandstone_honeycomb_paving.name=Red Sandstone Honeycomb Paving
+tile.red_sandstone_clover_paving.name=Red Sandstone Clover Paving
+tile.red_sandstone_dumble_paving.name=Red Sandstone Dumble Paving
+
+tile.brick_diamond_paving.name=Brick Diamond Paving
+tile.brick_basket_weave_paving.name=Brick Basket Weave Paving
+tile.brick_square_paving.name=Brick Square Paving
+tile.brick_honeycomb_paving.name=Brick Honeycomb Paving
+tile.brick_clover_paving.name=Brick Clover Paving
+tile.brick_dumble_paving.name=Brick Dumble Paving
+
+tile.cobblestone_diamond_paving.name=Cobblestone Diamond Paving
+tile.cobblestone_basket_weave_paving.name=Cobblestone Basket Weave Paving
+tile.cobblestone_square_paving.name=Cobblestone Square Paving
+tile.cobblestone_honeycomb_paving.name=Cobblestone Honeycomb Paving
+tile.cobblestone_clover_paving.name=Cobblestone Clover Paving
+tile.cobblestone_dumble_paving.name=Cobblestone Dumble Paving
+
+tile.mossy_cobblestone_diamond_paving.name=Mossy Cobblestone Diamond Paving
+tile.mossy_cobblestone_basket_weave_paving.name=Mossy Cobblestone Basket Weave Paving
+tile.mossy_cobblestone_square_paving.name=Mossy Cobblestone Square Paving
+tile.mossy_cobblestone_honeycomb_paving.name=Mossy Cobblestone Honeycomb Paving
+tile.mossy_cobblestone_clover_paving.name=Mossy Cobblestone Clover Paving
+tile.mossy_cobblestone_dumble_paving.name=Mossy Cobblestone Dumble Paving
+
+tile.blackstone_diamond_paving.name=Blackstone Diamond Paving
+tile.blackstone_basket_weave_paving.name=Blackstone Basket Weave Paving
+tile.blackstone_square_paving.name=Blackstone Square Paving
+tile.blackstone_honeycomb_paving.name=Blackstone Honeycomb Paving
+tile.blackstone_clover_paving.name=Blackstone Clover Paving
+tile.blackstone_dumble_paving.name=Blackstone Dumble Paving
+
+tile.dark_prismarine_diamond_paving.name=Dark Prismarine Diamond Paving
+tile.dark_prismarine_basket_weave_paving.name=Dark Prismarine Basket Weave Paving
+tile.dark_prismarine_square_paving.name=Dark Prismarine Square Paving
+tile.dark_prismarine_honeycomb_paving.name=Dark Prismarine Honeycomb Paving
+tile.dark_prismarine_clover_paving.name=Dark Prismarine Clover Paving
+tile.dark_prismarine_dumble_paving.name=Dark Prismarine Dumble Paving

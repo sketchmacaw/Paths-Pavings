@@ -1,0 +1,15 @@
+[
+{
+  "modid": "mcwpaths",
+  "name": "Macaw's Paths & Pavings",
+  "description": "Adds new vanila styled fences, walls and gates",
+  "version": "1.0.2",
+  "mcversion": "1.12.2",
+  "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-paths-and-pavings",
+  "updateUrl": "https://github.com/sketchmacaw/macawsmods/blob/master/paths.json",
+  "authorList": ["Sketch Macaw & Peachy Macaw"],
+  "credits": "Sketch Macaw & Peachy Macaw",
+  "screenshots": [],
+  "dependencies": []
+}
+]
