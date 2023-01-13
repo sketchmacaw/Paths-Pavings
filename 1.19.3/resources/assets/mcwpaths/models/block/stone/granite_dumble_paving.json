@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/dumble",
+  "textures": {
+	"particle": "mcwpaths:block/granite_dumble_paving",
+    "0": "mcwpaths:block/granite_dumble_paving"
+  }
+}

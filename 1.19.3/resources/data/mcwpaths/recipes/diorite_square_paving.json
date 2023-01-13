@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:diorite"
+    },
+    "result": "mcwpaths:diorite_square_paving",
+    "group": "paths",
+    "count": 4
+}

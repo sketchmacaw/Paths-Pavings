@@ -1,0 +1,14 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+license="MIT"
+
+logoFile="pathslogo.png"
+[[mods]]
+modId="mcwpaths"
+version="1.0.2"
+displayName="Macaw's Paths and Pavings"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/macaws-paths-and-pavings"
+updateJSONURL="https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/paths.json"
+credits=""
+authors="Sketch Macaw & Peachy Macaw"
+description="Adds new vanila styled paths and pavings!"

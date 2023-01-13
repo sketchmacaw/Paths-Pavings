@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/basket_weave",
+  "textures": {
+	"particle": "mcwpaths:block/cobbled_deepslate_basket_weave_paving",
+    "0": "mcwpaths:block/cobbled_deepslate_basket_weave_paving"
+  }
+}

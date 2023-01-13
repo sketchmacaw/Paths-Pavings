@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwpaths:granite_diamond_paving",
+	  "mcwpaths:granite_basket_weave_paving",
+      "mcwpaths:granite_square_paving",
+	  "mcwpaths:granite_honeycomb_paving",
+	  "mcwpaths:granite_clover_paving",
+	  "mcwpaths:granite_dumble_paving"
+    ]
+  },
+  "criteria": {
+    "has_granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:granite"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_granite"
+    ]
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/square",
+  "textures": {
+	"particle": "mcwpaths:block/cobblestone_square_paving",
+    "0": "mcwpaths:block/cobblestone_square_paving"
+  }
+}
