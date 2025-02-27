@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/honeycomb",
+  "textures": {
+	"particle": "mcwpaths:block/mud_brick_honeycomb_paving",
+    "0": "mcwpaths:block/mud_brick_honeycomb_paving"
+  }
+}

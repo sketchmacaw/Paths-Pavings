@@ -11,7 +11,7 @@ import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-public class PathBlock extends Block{
+public class PathBlock extends Block {
 	
 	   public PathBlock(Properties properties) {
 		super(properties);
@@ -25,12 +25,10 @@ public class PathBlock extends Block{
 	      return SHAPE;
 	   }
 
-
-
 	   public BlockState updateShape(BlockState stateIn, Direction facing, BlockState facingState, Level worldIn, BlockPos currentPos, BlockPos facingPos) {
 	      return super.updateShape(stateIn, facing, facingState, worldIn, currentPos, facingPos);
 	   }
-	
+	   
 	   @Override
 	   public PushReaction getPistonPushReaction(BlockState state) {
 	      return PushReaction.DESTROY;

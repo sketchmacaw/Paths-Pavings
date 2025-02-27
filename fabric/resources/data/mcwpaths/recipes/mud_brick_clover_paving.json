@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:mud_bricks"
+    },
+    "result": "mcwpaths:mud_brick_clover_paving",
+    "group": "paths",
+    "count": 4
+}

@@ -1,6 +1,7 @@
 package com.mcwpaths.kikoz;
 
 import com.mcwpaths.kikoz.init.BlockInit;
+import com.mcwpaths.kikoz.util.PathGroup;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -12,6 +13,7 @@ public class MacawsPaths implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		PathGroup.registerTabs();
 		BlockInit.registerModBlocks();
 	}
 }

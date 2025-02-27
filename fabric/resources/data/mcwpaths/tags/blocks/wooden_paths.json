@@ -8,6 +8,7 @@
 	"mcwpaths:acacia_planks_path",
 	"mcwpaths:dark_oak_planks_path",
 	"mcwpaths:crimson_planks_path",
-	"mcwpaths:warped_planks_path"
+	"mcwpaths:warped_planks_path",
+	"mcwpaths:mangrove_planks_path"
   ]
 }

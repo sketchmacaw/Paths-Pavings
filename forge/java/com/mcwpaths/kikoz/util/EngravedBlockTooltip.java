@@ -3,7 +3,6 @@ package com.mcwpaths.kikoz.util;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
-import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
@@ -29,7 +28,7 @@ public class EngravedBlockTooltip extends BlockItem implements IForgeItem {
 	   
 		@OnlyIn(Dist.CLIENT)
 		   public MutableComponent getDisplayName() {
-			return new TranslatableComponent("mcwpaths.engraved.desc");
+		      return Component.translatable("mcwpaths.engraved.desc");
 		}
 
 

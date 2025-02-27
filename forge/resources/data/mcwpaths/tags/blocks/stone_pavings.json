@@ -70,6 +70,13 @@
 	"mcwpaths:deepslate_clover_paving",
 	"mcwpaths:deepslate_dumble_paving",
 	
+	"mcwpaths:mud_brick_diamond_paving",
+	"mcwpaths:mud_brick_basket_weave_paving",
+	"mcwpaths:mud_brick_square_paving",
+	"mcwpaths:mud_brick_honeycomb_paving",
+	"mcwpaths:mud_brick_clover_paving",
+	"mcwpaths:mud_brick_dumble_paving",
+	
 	"mcwpaths:blackstone_diamond_paving",
 	"mcwpaths:blackstone_basket_weave_paving",
 	"mcwpaths:blackstone_square_paving",
@@ -94,6 +101,7 @@
 	"mcwpaths:mossy_stone_strewn_rocky_path",
 	"mcwpaths:cobbled_deepslate_strewn_rocky_path",
 	"mcwpaths:deepslate_strewn_rocky_path",
+	"mcwpaths:mud_brick_strewn_rocky_path",
 	"mcwpaths:blackstone_strewn_rocky_path",
 	"mcwpaths:dark_prismarine_strewn_rocky_path"
   ]

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:mud_bricks"
+    },
+    "result": "mcwpaths:mud_brick_strewn_rocky_path",
+    "group": "paths",
+    "count": 4
+}
+
+
+
+
+
+

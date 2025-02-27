@@ -14,7 +14,7 @@ import net.minecraft.util.math.Direction;
 public class FacingPathBlock extends PathBlock {
 
 	public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
-
+	
 	public FacingPathBlock(AbstractBlock.Settings properties) {
 		super(properties);
 		this.setDefaultState((BlockState)this.getDefaultState().with(FACING, Direction.NORTH));
@@ -27,11 +27,11 @@ public class FacingPathBlock extends PathBlock {
 
 	@Override
 	public BlockState getPlacementState(ItemPlacementContext context) {
-		return (BlockState)this.getDefaultState().with(FACING, context.getPlayerFacing().rotateYClockwise());
+		return (BlockState)this.getDefaultState().with(FACING, context.getHorizontalPlayerFacing().rotateYClockwise());
 	}
-
+	
 	@Override
 	protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
-		builder.add(FACING);
+	builder.add(FACING);
 	}
 }

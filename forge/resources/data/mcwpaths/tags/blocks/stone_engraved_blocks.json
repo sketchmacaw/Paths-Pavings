@@ -10,6 +10,7 @@
 	"mcwpaths:mossy_stone_running_bond",
 	"mcwpaths:cobbled_deepslate_running_bond",
 	"mcwpaths:deepslate_running_bond",
+	"mcwpaths:mud_brick_running_bond",
 	"mcwpaths:blackstone_running_bond",
 	"mcwpaths:dark_prismarine_running_bond",
 	"mcwpaths:andesite_windmill_weave",
@@ -22,6 +23,7 @@
 	"mcwpaths:mossy_stone_windmill_weave",
 	"mcwpaths:cobbled_deepslate_windmill_weave",
 	"mcwpaths:deepslate_windmill_weave",
+	"mcwpaths:mud_brick_windmill_weave",
 	"mcwpaths:blackstone_windmill_weave",
 	"mcwpaths:dark_prismarine_windmill_weave",
 	"mcwpaths:andesite_flagstone",
@@ -34,6 +36,7 @@
 	"mcwpaths:mossy_stone_flagstone",
 	"mcwpaths:cobbled_deepslate_flagstone",
 	"mcwpaths:deepslate_flagstone",
+	"mcwpaths:mud_brick_flagstone",
 	"mcwpaths:blackstone_flagstone",
 	"mcwpaths:dark_prismarine_flagstone",
 	"mcwpaths:andesite_crystal_floor",
@@ -46,6 +49,7 @@
 	"mcwpaths:mossy_stone_crystal_floor",
 	"mcwpaths:cobbled_deepslate_crystal_floor",
 	"mcwpaths:deepslate_crystal_floor",
+	"mcwpaths:mud_brick_crystal_floor",
 	"mcwpaths:blackstone_crystal_floor",
 	"mcwpaths:dark_prismarine_crystal_floor"
   ]

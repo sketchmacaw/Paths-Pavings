@@ -1,6 +1,8 @@
 {
     "pack": {
-        "description": "macaw's paths resources",
-        "pack_format": 9
+        "description": "macaws paths resources",
+        "pack_format": 13,
+        "forge:resource_pack_format": 13,
+        "forge:data_pack_format": 10
     }
 }
