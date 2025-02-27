@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwpaths:mossy_cobblestone_diamond_paving",
+	  "mcwpaths:mossy_cobblestone_basket_weave_paving",
+      "mcwpaths:mossy_cobblestone_square_paving",
+	  "mcwpaths:mossy_cobblestone_honeycomb_paving",
+	  "mcwpaths:mossy_cobblestone_clover_paving",
+	  "mcwpaths:mossy_cobblestone_dumble_paving",
+	  "mcwpaths:mossy_stone_running_bond_path",
+	  "mcwpaths:mossy_stone_running_bond_slab",
+	  "mcwpaths:mossy_stone_running_bond_stairs",
+	  "mcwpaths:mossy_stone_running_bond",
+	  "mcwpaths:mossy_stone_strewn_rocky_path",
+	  "mcwpaths:mossy_stone_windmill_weave_path",
+	  "mcwpaths:mossy_stone_windmill_weave_slab",
+	  "mcwpaths:mossy_stone_windmill_weave_stairs",
+	  "mcwpaths:mossy_stone_windmill_weave",
+	  "mcwpaths:mossy_stone_flagstone_path",
+	  "mcwpaths:mossy_stone_flagstone_slab",
+	  "mcwpaths:mossy_stone_flagstone_stairs",
+	  "mcwpaths:mossy_stone_flagstone",
+	  "mcwpaths:mossy_stone_crystal_floor_path",
+	  "mcwpaths:mossy_stone_crystal_floor_slab",
+	  "mcwpaths:mossy_stone_crystal_floor_stairs",
+	  "mcwpaths:mossy_stone_crystal_floor"  
+	  
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mossy_cobblestone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwpaths:mossy_cobblestone_clover_paving"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

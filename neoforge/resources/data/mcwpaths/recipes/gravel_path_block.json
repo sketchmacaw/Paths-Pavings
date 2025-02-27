@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:gravel"
+    },
+    "result": "mcwpaths:gravel_path_block",
+    "group": "blocks",
+    "count": 1
+}
+
+
+
+
+
+

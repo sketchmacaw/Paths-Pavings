@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:bricks"
+    },
+    "result": "mcwpaths:brick_diamond_paving",
+    "group": "paths",
+    "count": 4
+}

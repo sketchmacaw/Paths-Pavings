@@ -2,7 +2,6 @@ package com.mcwpaths.kikoz.objects;
 
 
 import net.minecraft.block.*;
-import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
@@ -10,7 +9,7 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
 public class PathBlock extends Block {
-	
+
 	   public PathBlock(AbstractBlock.Settings properties) {
 		super(properties);
 		   this.setDefaultState((BlockState)this.getDefaultState());
@@ -29,14 +28,10 @@ public class PathBlock extends Block {
 	}
 
 
+
 	   @SuppressWarnings("deprecation")
 	   public BlockState getStateForNeighborUpdate(BlockState stateIn, Direction facing, BlockState facingState, World worldIn, BlockPos currentPos, BlockPos facingPos) {
 		   return super.getStateForNeighborUpdate(stateIn, facing, facingState, worldIn, currentPos, facingPos);
-	   }
-	   
-	   @Override
-	   public PistonBehavior getPistonBehavior(BlockState state) {
-		   return PistonBehavior.DESTROY;
 	   }
 
 	}

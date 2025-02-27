@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:sandstone"
+    },
+    "result": "mcwpaths:sandstone_windmill_weave_stairs",
+    "group": "stairs",
+    "count": 1
+}
+
+
+
+
+
+

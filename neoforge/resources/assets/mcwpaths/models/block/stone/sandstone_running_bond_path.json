@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+	"particle": "mcwpaths:block/sandstone_running_bond",
+    "wool": "mcwpaths:block/sandstone_running_bond"
+  }
+}

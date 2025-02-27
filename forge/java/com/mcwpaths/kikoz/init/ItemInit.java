@@ -105,7 +105,7 @@ public class ItemInit {
 	public static final RegistryObject<Item> MUD_BRICK_DUMBLE_PAVING = ITEMS.register("mud_brick_dumble_paving",() -> new BlockItem(BlockInit.MUD_BRICK_DUMBLE_PAVING.get(), new Item.Properties()));
 
 	//1.0.2 Update
-
+	
 	public static final RegistryObject<Item> BLACKSTONE_DIAMOND_PAVING = ITEMS.register("blackstone_diamond_paving",() -> new BlockItem(BlockInit.BLACKSTONE_DIAMOND_PAVING.get(), new Item.Properties()));
 	public static final RegistryObject<Item> BLACKSTONE_BASKET_WEAVE_PAVING = ITEMS.register("blackstone_basket_weave_paving",() -> new BlockItem(BlockInit.BLACKSTONE_BASKET_WEAVE_PAVING.get(), new Item.Properties()));
 	public static final RegistryObject<Item> BLACKSTONE_SQUARE_PAVING = ITEMS.register("blackstone_square_paving",() -> new BlockItem(BlockInit.BLACKSTONE_SQUARE_PAVING.get(), new Item.Properties()));
@@ -121,35 +121,35 @@ public class ItemInit {
 	public static final RegistryObject<Item> DARK_PRISMARINE_DUMBLE_PAVING = ITEMS.register("dark_prismarine_dumble_paving",() -> new BlockItem(BlockInit.DARK_PRISMARINE_DUMBLE_PAVING.get(), new Item.Properties()));
 
 	//1.0.3 Update
-
+	
 	public static final RegistryObject<Item> ANDESITE_RUNNING_BOND_PATH = ITEMS.register("andesite_running_bond_path", () -> new BlockItem(BlockInit.ANDESITE_RUNNING_BOND_PATH.get(), new Item.Properties()));
 	public static final RegistryObject<Item> ANDESITE_RUNNING_BOND_SLAB = ITEMS.register("andesite_running_bond_slab", () -> new BlockItem(BlockInit.ANDESITE_RUNNING_BOND_SLAB.get(), new Item.Properties()));
 	public static final RegistryObject<Item> ANDESITE_RUNNING_BOND = ITEMS.register("andesite_running_bond", () -> new EngravedBlockTooltip(BlockInit.ANDESITE_RUNNING_BOND.get(), new Item.Properties()));
-
+	
 	public static final RegistryObject<Item> DIORITE_RUNNING_BOND_PATH = ITEMS.register("diorite_running_bond_path", () -> new BlockItem(BlockInit.DIORITE_RUNNING_BOND_PATH.get(), new Item.Properties()));
 	public static final RegistryObject<Item> DIORITE_RUNNING_BOND_SLAB = ITEMS.register("diorite_running_bond_slab", () -> new BlockItem(BlockInit.DIORITE_RUNNING_BOND_SLAB.get(), new Item.Properties()));
 	public static final RegistryObject<Item> DIORITE_RUNNING_BOND = ITEMS.register("diorite_running_bond", () -> new EngravedBlockTooltip(BlockInit.DIORITE_RUNNING_BOND.get(), new Item.Properties()));
-
+	
 	public static final RegistryObject<Item> GRANITE_RUNNING_BOND_PATH = ITEMS.register("granite_running_bond_path", () -> new BlockItem(BlockInit.GRANITE_RUNNING_BOND_PATH.get(), new Item.Properties()));
 	public static final RegistryObject<Item> GRANITE_RUNNING_BOND_SLAB = ITEMS.register("granite_running_bond_slab", () -> new BlockItem(BlockInit.GRANITE_RUNNING_BOND_SLAB.get(), new Item.Properties()));
 	public static final RegistryObject<Item> GRANITE_RUNNING_BOND = ITEMS.register("granite_running_bond", () -> new EngravedBlockTooltip(BlockInit.GRANITE_RUNNING_BOND.get(), new Item.Properties()));
-
+	
 	public static final RegistryObject<Item> SANDSTONE_RUNNING_BOND_PATH = ITEMS.register("sandstone_running_bond_path", () -> new BlockItem(BlockInit.SANDSTONE_RUNNING_BOND_PATH.get(), new Item.Properties()));
 	public static final RegistryObject<Item> SANDSTONE_RUNNING_BOND_SLAB = ITEMS.register("sandstone_running_bond_slab", () -> new BlockItem(BlockInit.SANDSTONE_RUNNING_BOND_SLAB.get(), new Item.Properties()));
 	public static final RegistryObject<Item> SANDSTONE_RUNNING_BOND = ITEMS.register("sandstone_running_bond", () -> new EngravedBlockTooltip(BlockInit.SANDSTONE_RUNNING_BOND.get(), new Item.Properties()));
-
+	
 	public static final RegistryObject<Item> RED_SANDSTONE_RUNNING_BOND_PATH = ITEMS.register("red_sandstone_running_bond_path", () -> new BlockItem(BlockInit.RED_SANDSTONE_RUNNING_BOND_PATH.get(), new Item.Properties()));
 	public static final RegistryObject<Item> RED_SANDSTONE_RUNNING_BOND_SLAB = ITEMS.register("red_sandstone_running_bond_slab", () -> new BlockItem(BlockInit.RED_SANDSTONE_RUNNING_BOND_SLAB.get(), new Item.Properties()));
 	public static final RegistryObject<Item> RED_SANDSTONE_RUNNING_BOND = ITEMS.register("red_sandstone_running_bond", () -> new EngravedBlockTooltip(BlockInit.RED_SANDSTONE_RUNNING_BOND.get(), new Item.Properties()));
-
+	
 	public static final RegistryObject<Item> BRICK_RUNNING_BOND_PATH = ITEMS.register("brick_running_bond_path", () -> new BlockItem(BlockInit.BRICK_RUNNING_BOND_PATH.get(), new Item.Properties()));
 	public static final RegistryObject<Item> BRICK_RUNNING_BOND_SLAB = ITEMS.register("brick_running_bond_slab", () -> new BlockItem(BlockInit.BRICK_RUNNING_BOND_SLAB.get(), new Item.Properties()));
 	public static final RegistryObject<Item> BRICK_RUNNING_BOND = ITEMS.register("brick_running_bond", () -> new EngravedBlockTooltip(BlockInit.BRICK_RUNNING_BOND.get(), new Item.Properties()));
-
+	
 	public static final RegistryObject<Item> STONE_RUNNING_BOND_PATH = ITEMS.register("stone_running_bond_path", () -> new BlockItem(BlockInit.STONE_RUNNING_BOND_PATH.get(), new Item.Properties()));
 	public static final RegistryObject<Item> STONE_RUNNING_BOND_SLAB = ITEMS.register("stone_running_bond_slab", () -> new BlockItem(BlockInit.STONE_RUNNING_BOND_SLAB.get(), new Item.Properties()));
 	public static final RegistryObject<Item> STONE_RUNNING_BOND = ITEMS.register("stone_running_bond", () -> new EngravedBlockTooltip(BlockInit.STONE_RUNNING_BOND.get(), new Item.Properties()));
-
+	
 	public static final RegistryObject<Item> MOSSY_STONE_RUNNING_BOND_PATH = ITEMS.register("mossy_stone_running_bond_path", () -> new BlockItem(BlockInit.MOSSY_STONE_RUNNING_BOND_PATH.get(), new Item.Properties()));
 	public static final RegistryObject<Item> MOSSY_STONE_RUNNING_BOND_SLAB = ITEMS.register("mossy_stone_running_bond_slab", () -> new BlockItem(BlockInit.MOSSY_STONE_RUNNING_BOND_SLAB.get(), new Item.Properties()));
 	public static final RegistryObject<Item> MOSSY_STONE_RUNNING_BOND = ITEMS.register("mossy_stone_running_bond", () -> new EngravedBlockTooltip(BlockInit.MOSSY_STONE_RUNNING_BOND.get(), new Item.Properties()));
@@ -157,15 +157,15 @@ public class ItemInit {
 	public static final RegistryObject<Item> COBBLED_DEEPSLATE_RUNNING_BOND_PATH = ITEMS.register("cobbled_deepslate_running_bond_path", () -> new BlockItem(BlockInit.COBBLED_DEEPSLATE_RUNNING_BOND_PATH.get(), new Item.Properties()));
 	public static final RegistryObject<Item> COBBLED_DEEPSLATE_RUNNING_BOND_SLAB = ITEMS.register("cobbled_deepslate_running_bond_slab", () -> new BlockItem(BlockInit.COBBLED_DEEPSLATE_RUNNING_BOND_SLAB.get(), new Item.Properties()));
 	public static final RegistryObject<Item> COBBLED_DEEPSLATE_RUNNING_BOND = ITEMS.register("cobbled_deepslate_running_bond", () -> new EngravedBlockTooltip(BlockInit.COBBLED_DEEPSLATE_RUNNING_BOND.get(), new Item.Properties()));
-
+	
 	public static final RegistryObject<Item> DEEPSLATE_RUNNING_BOND_PATH = ITEMS.register("deepslate_running_bond_path", () -> new BlockItem(BlockInit.DEEPSLATE_RUNNING_BOND_PATH.get(), new Item.Properties()));
 	public static final RegistryObject<Item> DEEPSLATE_RUNNING_BOND_SLAB = ITEMS.register("deepslate_running_bond_slab", () -> new BlockItem(BlockInit.DEEPSLATE_RUNNING_BOND_SLAB.get(), new Item.Properties()));
 	public static final RegistryObject<Item> DEEPSLATE_RUNNING_BOND = ITEMS.register("deepslate_running_bond", () -> new EngravedBlockTooltip(BlockInit.DEEPSLATE_RUNNING_BOND.get(), new Item.Properties()));
-
+	
 	public static final RegistryObject<Item> MUD_BRICK_RUNNING_BOND_PATH = ITEMS.register("mud_brick_running_bond_path", () -> new BlockItem(BlockInit.MUD_BRICK_RUNNING_BOND_PATH.get(), new Item.Properties()));
 	public static final RegistryObject<Item> MUD_BRICK_RUNNING_BOND_SLAB = ITEMS.register("mud_brick_running_bond_slab", () -> new BlockItem(BlockInit.MUD_BRICK_RUNNING_BOND_SLAB.get(), new Item.Properties()));
 	public static final RegistryObject<Item> MUD_BRICK_RUNNING_BOND = ITEMS.register("mud_brick_running_bond", () -> new EngravedBlockTooltip(BlockInit.MUD_BRICK_RUNNING_BOND.get(), new Item.Properties()));
-
+	
 	public static final RegistryObject<Item> BLACKSTONE_RUNNING_BOND_PATH = ITEMS.register("blackstone_running_bond_path", () -> new BlockItem(BlockInit.BLACKSTONE_RUNNING_BOND_PATH.get(), new Item.Properties()));
 	public static final RegistryObject<Item> BLACKSTONE_RUNNING_BOND_SLAB = ITEMS.register("blackstone_running_bond_slab", () -> new BlockItem(BlockInit.BLACKSTONE_RUNNING_BOND_SLAB.get(), new Item.Properties()));
 	public static final RegistryObject<Item> BLACKSTONE_RUNNING_BOND = ITEMS.register("blackstone_running_bond", () -> new EngravedBlockTooltip(BlockInit.BLACKSTONE_RUNNING_BOND.get(), new Item.Properties()));
@@ -174,144 +174,147 @@ public class ItemInit {
 	public static final RegistryObject<Item> DARK_PRISMARINE_RUNNING_BOND_SLAB = ITEMS.register("dark_prismarine_running_bond_slab", () -> new BlockItem(BlockInit.DARK_PRISMARINE_RUNNING_BOND_SLAB.get(), new Item.Properties()));
 	public static final RegistryObject<Item> DARK_PRISMARINE_RUNNING_BOND = ITEMS.register("dark_prismarine_running_bond", () -> new EngravedBlockTooltip(BlockInit.DARK_PRISMARINE_RUNNING_BOND.get(), new Item.Properties()));
 
+	public static final RegistryObject<Item> CHERRY_PLANKS_PATH = ITEMS.register("cherry_planks_path",() -> new FuelItemBlock(BlockInit.CHERRY_PLANKS_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BAMBOO_PLANKS_PATH = ITEMS.register("bamboo_planks_path",() -> new FuelItemBlock(BlockInit.BAMBOO_PLANKS_PATH.get(), new Item.Properties()));
+
 	//1.0.5
 
-		public static final RegistryObject<Item> ANDESITE_STREWN_ROCKY_PATH = ITEMS.register("andesite_strewn_rocky_path", () -> new BlockItem(BlockInit.ANDESITE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DIORITE_STREWN_ROCKY_PATH = ITEMS.register("diorite_strewn_rocky_path", () -> new BlockItem(BlockInit.DIORITE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> GRANITE_STREWN_ROCKY_PATH = ITEMS.register("granite_strewn_rocky_path", () -> new BlockItem(BlockInit.GRANITE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> SANDSTONE_STREWN_ROCKY_PATH = ITEMS.register("sandstone_strewn_rocky_path", () -> new BlockItem(BlockInit.SANDSTONE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> RED_SANDSTONE_STREWN_ROCKY_PATH = ITEMS.register("red_sandstone_strewn_rocky_path", () -> new BlockItem(BlockInit.RED_SANDSTONE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BRICK_STREWN_ROCKY_PATH = ITEMS.register("brick_strewn_rocky_path", () -> new BlockItem(BlockInit.BRICK_STREWN_ROCKY_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> STONE_STREWN_ROCKY_PATH = ITEMS.register("stone_strewn_rocky_path", () -> new BlockItem(BlockInit.STONE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MOSSY_STONE_STREWN_ROCKY_PATH = ITEMS.register("mossy_stone_strewn_rocky_path", () -> new BlockItem(BlockInit.MOSSY_STONE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> COBBLED_DEEPSLATE_STREWN_ROCKY_PATH = ITEMS.register("cobbled_deepslate_strewn_rocky_path", () -> new BlockItem(BlockInit.COBBLED_DEEPSLATE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DEEPSLATE_STREWN_ROCKY_PATH = ITEMS.register("deepslate_strewn_rocky_path", () -> new BlockItem(BlockInit.DEEPSLATE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MUD_BRICK_STREWN_ROCKY_PATH = ITEMS.register("mud_brick_strewn_rocky_path", () -> new BlockItem(BlockInit.MUD_BRICK_STREWN_ROCKY_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BLACKSTONE_STREWN_ROCKY_PATH = ITEMS.register("blackstone_strewn_rocky_path", () -> new BlockItem(BlockInit.BLACKSTONE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DARK_PRISMARINE_STREWN_ROCKY_PATH = ITEMS.register("dark_prismarine_strewn_rocky_path", () -> new BlockItem(BlockInit.DARK_PRISMARINE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> ANDESITE_STREWN_ROCKY_PATH = ITEMS.register("andesite_strewn_rocky_path", () -> new BlockItem(BlockInit.ANDESITE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DIORITE_STREWN_ROCKY_PATH = ITEMS.register("diorite_strewn_rocky_path", () -> new BlockItem(BlockInit.DIORITE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> GRANITE_STREWN_ROCKY_PATH = ITEMS.register("granite_strewn_rocky_path", () -> new BlockItem(BlockInit.GRANITE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> SANDSTONE_STREWN_ROCKY_PATH = ITEMS.register("sandstone_strewn_rocky_path", () -> new BlockItem(BlockInit.SANDSTONE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> RED_SANDSTONE_STREWN_ROCKY_PATH = ITEMS.register("red_sandstone_strewn_rocky_path", () -> new BlockItem(BlockInit.RED_SANDSTONE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BRICK_STREWN_ROCKY_PATH = ITEMS.register("brick_strewn_rocky_path", () -> new BlockItem(BlockInit.BRICK_STREWN_ROCKY_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> STONE_STREWN_ROCKY_PATH = ITEMS.register("stone_strewn_rocky_path", () -> new BlockItem(BlockInit.STONE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MOSSY_STONE_STREWN_ROCKY_PATH = ITEMS.register("mossy_stone_strewn_rocky_path", () -> new BlockItem(BlockInit.MOSSY_STONE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> COBBLED_DEEPSLATE_STREWN_ROCKY_PATH = ITEMS.register("cobbled_deepslate_strewn_rocky_path", () -> new BlockItem(BlockInit.COBBLED_DEEPSLATE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DEEPSLATE_STREWN_ROCKY_PATH = ITEMS.register("deepslate_strewn_rocky_path", () -> new BlockItem(BlockInit.DEEPSLATE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MUD_BRICK_STREWN_ROCKY_PATH = ITEMS.register("mud_brick_strewn_rocky_path", () -> new BlockItem(BlockInit.MUD_BRICK_STREWN_ROCKY_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BLACKSTONE_STREWN_ROCKY_PATH = ITEMS.register("blackstone_strewn_rocky_path", () -> new BlockItem(BlockInit.BLACKSTONE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DARK_PRISMARINE_STREWN_ROCKY_PATH = ITEMS.register("dark_prismarine_strewn_rocky_path", () -> new BlockItem(BlockInit.DARK_PRISMARINE_STREWN_ROCKY_PATH.get(), new Item.Properties()));
 
-		public static final RegistryObject<Item> ANDESITE_WINDMILL_WEAVE_PATH = ITEMS.register("andesite_windmill_weave_path", () -> new BlockItem(BlockInit.ANDESITE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> ANDESITE_WINDMILL_WEAVE_SLAB = ITEMS.register("andesite_windmill_weave_slab", () -> new BlockItem(BlockInit.ANDESITE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> ANDESITE_WINDMILL_WEAVE = ITEMS.register("andesite_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.ANDESITE_WINDMILL_WEAVE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DIORITE_WINDMILL_WEAVE_PATH = ITEMS.register("diorite_windmill_weave_path", () -> new BlockItem(BlockInit.DIORITE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DIORITE_WINDMILL_WEAVE_SLAB = ITEMS.register("diorite_windmill_weave_slab", () -> new BlockItem(BlockInit.DIORITE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DIORITE_WINDMILL_WEAVE = ITEMS.register("diorite_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.DIORITE_WINDMILL_WEAVE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> GRANITE_WINDMILL_WEAVE_PATH = ITEMS.register("granite_windmill_weave_path", () -> new BlockItem(BlockInit.GRANITE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> GRANITE_WINDMILL_WEAVE_SLAB = ITEMS.register("granite_windmill_weave_slab", () -> new BlockItem(BlockInit.GRANITE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> GRANITE_WINDMILL_WEAVE = ITEMS.register("granite_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.GRANITE_WINDMILL_WEAVE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> SANDSTONE_WINDMILL_WEAVE_PATH = ITEMS.register("sandstone_windmill_weave_path", () -> new BlockItem(BlockInit.SANDSTONE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> SANDSTONE_WINDMILL_WEAVE_SLAB = ITEMS.register("sandstone_windmill_weave_slab", () -> new BlockItem(BlockInit.SANDSTONE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> SANDSTONE_WINDMILL_WEAVE = ITEMS.register("sandstone_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.SANDSTONE_WINDMILL_WEAVE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> RED_SANDSTONE_WINDMILL_WEAVE_PATH = ITEMS.register("red_sandstone_windmill_weave_path", () -> new BlockItem(BlockInit.RED_SANDSTONE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> RED_SANDSTONE_WINDMILL_WEAVE_SLAB = ITEMS.register("red_sandstone_windmill_weave_slab", () -> new BlockItem(BlockInit.RED_SANDSTONE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> RED_SANDSTONE_WINDMILL_WEAVE = ITEMS.register("red_sandstone_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.RED_SANDSTONE_WINDMILL_WEAVE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BRICK_WINDMILL_WEAVE_PATH = ITEMS.register("brick_windmill_weave_path", () -> new BlockItem(BlockInit.BRICK_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BRICK_WINDMILL_WEAVE_SLAB = ITEMS.register("brick_windmill_weave_slab", () -> new BlockItem(BlockInit.BRICK_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BRICK_WINDMILL_WEAVE = ITEMS.register("brick_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.BRICK_WINDMILL_WEAVE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> STONE_WINDMILL_WEAVE_PATH = ITEMS.register("stone_windmill_weave_path", () -> new BlockItem(BlockInit.STONE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> STONE_WINDMILL_WEAVE_SLAB = ITEMS.register("stone_windmill_weave_slab", () -> new BlockItem(BlockInit.STONE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> STONE_WINDMILL_WEAVE = ITEMS.register("stone_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.STONE_WINDMILL_WEAVE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MOSSY_STONE_WINDMILL_WEAVE_PATH = ITEMS.register("mossy_stone_windmill_weave_path", () -> new BlockItem(BlockInit.MOSSY_STONE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MOSSY_STONE_WINDMILL_WEAVE_SLAB = ITEMS.register("mossy_stone_windmill_weave_slab", () -> new BlockItem(BlockInit.MOSSY_STONE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MOSSY_STONE_WINDMILL_WEAVE = ITEMS.register("mossy_stone_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.MOSSY_STONE_WINDMILL_WEAVE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> COBBLED_DEEPSLATE_WINDMILL_WEAVE_PATH = ITEMS.register("cobbled_deepslate_windmill_weave_path", () -> new BlockItem(BlockInit.COBBLED_DEEPSLATE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> COBBLED_DEEPSLATE_WINDMILL_WEAVE_SLAB = ITEMS.register("cobbled_deepslate_windmill_weave_slab", () -> new BlockItem(BlockInit.COBBLED_DEEPSLATE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> COBBLED_DEEPSLATE_WINDMILL_WEAVE = ITEMS.register("cobbled_deepslate_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.COBBLED_DEEPSLATE_WINDMILL_WEAVE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DEEPSLATE_WINDMILL_WEAVE_PATH = ITEMS.register("deepslate_windmill_weave_path", () -> new BlockItem(BlockInit.DEEPSLATE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DEEPSLATE_WINDMILL_WEAVE_SLAB = ITEMS.register("deepslate_windmill_weave_slab", () -> new BlockItem(BlockInit.DEEPSLATE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DEEPSLATE_WINDMILL_WEAVE = ITEMS.register("deepslate_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.DEEPSLATE_WINDMILL_WEAVE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MUD_BRICK_WINDMILL_WEAVE_PATH = ITEMS.register("mud_brick_windmill_weave_path", () -> new BlockItem(BlockInit.MUD_BRICK_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MUD_BRICK_WINDMILL_WEAVE_SLAB = ITEMS.register("mud_brick_windmill_weave_slab", () -> new BlockItem(BlockInit.MUD_BRICK_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MUD_BRICK_WINDMILL_WEAVE = ITEMS.register("mud_brick_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.MUD_BRICK_WINDMILL_WEAVE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BLACKSTONE_WINDMILL_WEAVE_PATH = ITEMS.register("blackstone_windmill_weave_path", () -> new BlockItem(BlockInit.BLACKSTONE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BLACKSTONE_WINDMILL_WEAVE_SLAB = ITEMS.register("blackstone_windmill_weave_slab", () -> new BlockItem(BlockInit.BLACKSTONE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BLACKSTONE_WINDMILL_WEAVE = ITEMS.register("blackstone_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.BLACKSTONE_WINDMILL_WEAVE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DARK_PRISMARINE_WINDMILL_WEAVE_PATH = ITEMS.register("dark_prismarine_windmill_weave_path", () -> new BlockItem(BlockInit.DARK_PRISMARINE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DARK_PRISMARINE_WINDMILL_WEAVE_SLAB = ITEMS.register("dark_prismarine_windmill_weave_slab", () -> new BlockItem(BlockInit.DARK_PRISMARINE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DARK_PRISMARINE_WINDMILL_WEAVE = ITEMS.register("dark_prismarine_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.DARK_PRISMARINE_WINDMILL_WEAVE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> ANDESITE_WINDMILL_WEAVE_PATH = ITEMS.register("andesite_windmill_weave_path", () -> new BlockItem(BlockInit.ANDESITE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> ANDESITE_WINDMILL_WEAVE_SLAB = ITEMS.register("andesite_windmill_weave_slab", () -> new BlockItem(BlockInit.ANDESITE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> ANDESITE_WINDMILL_WEAVE = ITEMS.register("andesite_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.ANDESITE_WINDMILL_WEAVE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DIORITE_WINDMILL_WEAVE_PATH = ITEMS.register("diorite_windmill_weave_path", () -> new BlockItem(BlockInit.DIORITE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DIORITE_WINDMILL_WEAVE_SLAB = ITEMS.register("diorite_windmill_weave_slab", () -> new BlockItem(BlockInit.DIORITE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DIORITE_WINDMILL_WEAVE = ITEMS.register("diorite_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.DIORITE_WINDMILL_WEAVE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> GRANITE_WINDMILL_WEAVE_PATH = ITEMS.register("granite_windmill_weave_path", () -> new BlockItem(BlockInit.GRANITE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> GRANITE_WINDMILL_WEAVE_SLAB = ITEMS.register("granite_windmill_weave_slab", () -> new BlockItem(BlockInit.GRANITE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> GRANITE_WINDMILL_WEAVE = ITEMS.register("granite_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.GRANITE_WINDMILL_WEAVE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> SANDSTONE_WINDMILL_WEAVE_PATH = ITEMS.register("sandstone_windmill_weave_path", () -> new BlockItem(BlockInit.SANDSTONE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> SANDSTONE_WINDMILL_WEAVE_SLAB = ITEMS.register("sandstone_windmill_weave_slab", () -> new BlockItem(BlockInit.SANDSTONE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> SANDSTONE_WINDMILL_WEAVE = ITEMS.register("sandstone_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.SANDSTONE_WINDMILL_WEAVE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> RED_SANDSTONE_WINDMILL_WEAVE_PATH = ITEMS.register("red_sandstone_windmill_weave_path", () -> new BlockItem(BlockInit.RED_SANDSTONE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> RED_SANDSTONE_WINDMILL_WEAVE_SLAB = ITEMS.register("red_sandstone_windmill_weave_slab", () -> new BlockItem(BlockInit.RED_SANDSTONE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> RED_SANDSTONE_WINDMILL_WEAVE = ITEMS.register("red_sandstone_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.RED_SANDSTONE_WINDMILL_WEAVE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BRICK_WINDMILL_WEAVE_PATH = ITEMS.register("brick_windmill_weave_path", () -> new BlockItem(BlockInit.BRICK_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BRICK_WINDMILL_WEAVE_SLAB = ITEMS.register("brick_windmill_weave_slab", () -> new BlockItem(BlockInit.BRICK_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BRICK_WINDMILL_WEAVE = ITEMS.register("brick_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.BRICK_WINDMILL_WEAVE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> STONE_WINDMILL_WEAVE_PATH = ITEMS.register("stone_windmill_weave_path", () -> new BlockItem(BlockInit.STONE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> STONE_WINDMILL_WEAVE_SLAB = ITEMS.register("stone_windmill_weave_slab", () -> new BlockItem(BlockInit.STONE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> STONE_WINDMILL_WEAVE = ITEMS.register("stone_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.STONE_WINDMILL_WEAVE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MOSSY_STONE_WINDMILL_WEAVE_PATH = ITEMS.register("mossy_stone_windmill_weave_path", () -> new BlockItem(BlockInit.MOSSY_STONE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MOSSY_STONE_WINDMILL_WEAVE_SLAB = ITEMS.register("mossy_stone_windmill_weave_slab", () -> new BlockItem(BlockInit.MOSSY_STONE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MOSSY_STONE_WINDMILL_WEAVE = ITEMS.register("mossy_stone_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.MOSSY_STONE_WINDMILL_WEAVE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> COBBLED_DEEPSLATE_WINDMILL_WEAVE_PATH = ITEMS.register("cobbled_deepslate_windmill_weave_path", () -> new BlockItem(BlockInit.COBBLED_DEEPSLATE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> COBBLED_DEEPSLATE_WINDMILL_WEAVE_SLAB = ITEMS.register("cobbled_deepslate_windmill_weave_slab", () -> new BlockItem(BlockInit.COBBLED_DEEPSLATE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> COBBLED_DEEPSLATE_WINDMILL_WEAVE = ITEMS.register("cobbled_deepslate_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.COBBLED_DEEPSLATE_WINDMILL_WEAVE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DEEPSLATE_WINDMILL_WEAVE_PATH = ITEMS.register("deepslate_windmill_weave_path", () -> new BlockItem(BlockInit.DEEPSLATE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DEEPSLATE_WINDMILL_WEAVE_SLAB = ITEMS.register("deepslate_windmill_weave_slab", () -> new BlockItem(BlockInit.DEEPSLATE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DEEPSLATE_WINDMILL_WEAVE = ITEMS.register("deepslate_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.DEEPSLATE_WINDMILL_WEAVE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MUD_BRICK_WINDMILL_WEAVE_PATH = ITEMS.register("mud_brick_windmill_weave_path", () -> new BlockItem(BlockInit.MUD_BRICK_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MUD_BRICK_WINDMILL_WEAVE_SLAB = ITEMS.register("mud_brick_windmill_weave_slab", () -> new BlockItem(BlockInit.MUD_BRICK_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MUD_BRICK_WINDMILL_WEAVE = ITEMS.register("mud_brick_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.MUD_BRICK_WINDMILL_WEAVE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BLACKSTONE_WINDMILL_WEAVE_PATH = ITEMS.register("blackstone_windmill_weave_path", () -> new BlockItem(BlockInit.BLACKSTONE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BLACKSTONE_WINDMILL_WEAVE_SLAB = ITEMS.register("blackstone_windmill_weave_slab", () -> new BlockItem(BlockInit.BLACKSTONE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BLACKSTONE_WINDMILL_WEAVE = ITEMS.register("blackstone_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.BLACKSTONE_WINDMILL_WEAVE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DARK_PRISMARINE_WINDMILL_WEAVE_PATH = ITEMS.register("dark_prismarine_windmill_weave_path", () -> new BlockItem(BlockInit.DARK_PRISMARINE_WINDMILL_WEAVE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DARK_PRISMARINE_WINDMILL_WEAVE_SLAB = ITEMS.register("dark_prismarine_windmill_weave_slab", () -> new BlockItem(BlockInit.DARK_PRISMARINE_WINDMILL_WEAVE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DARK_PRISMARINE_WINDMILL_WEAVE = ITEMS.register("dark_prismarine_windmill_weave", () -> new EngravedBlockTooltip(BlockInit.DARK_PRISMARINE_WINDMILL_WEAVE.get(), new Item.Properties()));
 
-		public static final RegistryObject<Item> ANDESITE_FLAGSTONE_PATH = ITEMS.register("andesite_flagstone_path", () -> new BlockItem(BlockInit.ANDESITE_FLAGSTONE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> ANDESITE_FLAGSTONE_SLAB = ITEMS.register("andesite_flagstone_slab", () -> new BlockItem(BlockInit.ANDESITE_FLAGSTONE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> ANDESITE_FLAGSTONE = ITEMS.register("andesite_flagstone", () -> new EngravedBlockTooltip(BlockInit.ANDESITE_FLAGSTONE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DIORITE_FLAGSTONE_PATH = ITEMS.register("diorite_flagstone_path", () -> new BlockItem(BlockInit.DIORITE_FLAGSTONE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DIORITE_FLAGSTONE_SLAB = ITEMS.register("diorite_flagstone_slab", () -> new BlockItem(BlockInit.DIORITE_FLAGSTONE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DIORITE_FLAGSTONE = ITEMS.register("diorite_flagstone", () -> new EngravedBlockTooltip(BlockInit.DIORITE_FLAGSTONE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> GRANITE_FLAGSTONE_PATH = ITEMS.register("granite_flagstone_path", () -> new BlockItem(BlockInit.GRANITE_FLAGSTONE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> GRANITE_FLAGSTONE_SLAB = ITEMS.register("granite_flagstone_slab", () -> new BlockItem(BlockInit.GRANITE_FLAGSTONE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> GRANITE_FLAGSTONE = ITEMS.register("granite_flagstone", () -> new EngravedBlockTooltip(BlockInit.GRANITE_FLAGSTONE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> SANDSTONE_FLAGSTONE_PATH = ITEMS.register("sandstone_flagstone_path", () -> new BlockItem(BlockInit.SANDSTONE_FLAGSTONE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> SANDSTONE_FLAGSTONE_SLAB = ITEMS.register("sandstone_flagstone_slab", () -> new BlockItem(BlockInit.SANDSTONE_FLAGSTONE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> SANDSTONE_FLAGSTONE = ITEMS.register("sandstone_flagstone", () -> new EngravedBlockTooltip(BlockInit.SANDSTONE_FLAGSTONE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> RED_SANDSTONE_FLAGSTONE_PATH = ITEMS.register("red_sandstone_flagstone_path", () -> new BlockItem(BlockInit.RED_SANDSTONE_FLAGSTONE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> RED_SANDSTONE_FLAGSTONE_SLAB = ITEMS.register("red_sandstone_flagstone_slab", () -> new BlockItem(BlockInit.RED_SANDSTONE_FLAGSTONE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> RED_SANDSTONE_FLAGSTONE = ITEMS.register("red_sandstone_flagstone", () -> new EngravedBlockTooltip(BlockInit.RED_SANDSTONE_FLAGSTONE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BRICK_FLAGSTONE_PATH = ITEMS.register("brick_flagstone_path", () -> new BlockItem(BlockInit.BRICK_FLAGSTONE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BRICK_FLAGSTONE_SLAB = ITEMS.register("brick_flagstone_slab", () -> new BlockItem(BlockInit.BRICK_FLAGSTONE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BRICK_FLAGSTONE = ITEMS.register("brick_flagstone", () -> new EngravedBlockTooltip(BlockInit.BRICK_FLAGSTONE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> STONE_FLAGSTONE_PATH = ITEMS.register("stone_flagstone_path", () -> new BlockItem(BlockInit.STONE_FLAGSTONE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> STONE_FLAGSTONE_SLAB = ITEMS.register("stone_flagstone_slab", () -> new BlockItem(BlockInit.STONE_FLAGSTONE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> STONE_FLAGSTONE = ITEMS.register("stone_flagstone", () -> new EngravedBlockTooltip(BlockInit.STONE_FLAGSTONE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MOSSY_STONE_FLAGSTONE_PATH = ITEMS.register("mossy_stone_flagstone_path", () -> new BlockItem(BlockInit.MOSSY_STONE_FLAGSTONE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MOSSY_STONE_FLAGSTONE_SLAB = ITEMS.register("mossy_stone_flagstone_slab", () -> new BlockItem(BlockInit.MOSSY_STONE_FLAGSTONE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MOSSY_STONE_FLAGSTONE = ITEMS.register("mossy_stone_flagstone", () -> new EngravedBlockTooltip(BlockInit.MOSSY_STONE_FLAGSTONE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> COBBLED_DEEPSLATE_FLAGSTONE_PATH = ITEMS.register("cobbled_deepslate_flagstone_path", () -> new BlockItem(BlockInit.COBBLED_DEEPSLATE_FLAGSTONE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> COBBLED_DEEPSLATE_FLAGSTONE_SLAB = ITEMS.register("cobbled_deepslate_flagstone_slab", () -> new BlockItem(BlockInit.COBBLED_DEEPSLATE_FLAGSTONE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> COBBLED_DEEPSLATE_FLAGSTONE = ITEMS.register("cobbled_deepslate_flagstone", () -> new EngravedBlockTooltip(BlockInit.COBBLED_DEEPSLATE_FLAGSTONE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DEEPSLATE_FLAGSTONE_PATH = ITEMS.register("deepslate_flagstone_path", () -> new BlockItem(BlockInit.DEEPSLATE_FLAGSTONE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DEEPSLATE_FLAGSTONE_SLAB = ITEMS.register("deepslate_flagstone_slab", () -> new BlockItem(BlockInit.DEEPSLATE_FLAGSTONE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DEEPSLATE_FLAGSTONE = ITEMS.register("deepslate_flagstone", () -> new EngravedBlockTooltip(BlockInit.DEEPSLATE_FLAGSTONE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MUD_BRICK_FLAGSTONE_PATH = ITEMS.register("mud_brick_flagstone_path", () -> new BlockItem(BlockInit.MUD_BRICK_FLAGSTONE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MUD_BRICK_FLAGSTONE_SLAB = ITEMS.register("mud_brick_flagstone_slab", () -> new BlockItem(BlockInit.MUD_BRICK_FLAGSTONE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MUD_BRICK_FLAGSTONE = ITEMS.register("mud_brick_flagstone", () -> new EngravedBlockTooltip(BlockInit.MUD_BRICK_FLAGSTONE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BLACKSTONE_FLAGSTONE_PATH = ITEMS.register("blackstone_flagstone_path", () -> new BlockItem(BlockInit.BLACKSTONE_FLAGSTONE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BLACKSTONE_FLAGSTONE_SLAB = ITEMS.register("blackstone_flagstone_slab", () -> new BlockItem(BlockInit.BLACKSTONE_FLAGSTONE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BLACKSTONE_FLAGSTONE = ITEMS.register("blackstone_flagstone", () -> new EngravedBlockTooltip(BlockInit.BLACKSTONE_FLAGSTONE.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DARK_PRISMARINE_FLAGSTONE_PATH = ITEMS.register("dark_prismarine_flagstone_path", () -> new BlockItem(BlockInit.DARK_PRISMARINE_FLAGSTONE_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DARK_PRISMARINE_FLAGSTONE_SLAB = ITEMS.register("dark_prismarine_flagstone_slab", () -> new BlockItem(BlockInit.DARK_PRISMARINE_FLAGSTONE_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DARK_PRISMARINE_FLAGSTONE = ITEMS.register("dark_prismarine_flagstone", () -> new EngravedBlockTooltip(BlockInit.DARK_PRISMARINE_FLAGSTONE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> ANDESITE_FLAGSTONE_PATH = ITEMS.register("andesite_flagstone_path", () -> new BlockItem(BlockInit.ANDESITE_FLAGSTONE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> ANDESITE_FLAGSTONE_SLAB = ITEMS.register("andesite_flagstone_slab", () -> new BlockItem(BlockInit.ANDESITE_FLAGSTONE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> ANDESITE_FLAGSTONE = ITEMS.register("andesite_flagstone", () -> new EngravedBlockTooltip(BlockInit.ANDESITE_FLAGSTONE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DIORITE_FLAGSTONE_PATH = ITEMS.register("diorite_flagstone_path", () -> new BlockItem(BlockInit.DIORITE_FLAGSTONE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DIORITE_FLAGSTONE_SLAB = ITEMS.register("diorite_flagstone_slab", () -> new BlockItem(BlockInit.DIORITE_FLAGSTONE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DIORITE_FLAGSTONE = ITEMS.register("diorite_flagstone", () -> new EngravedBlockTooltip(BlockInit.DIORITE_FLAGSTONE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> GRANITE_FLAGSTONE_PATH = ITEMS.register("granite_flagstone_path", () -> new BlockItem(BlockInit.GRANITE_FLAGSTONE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> GRANITE_FLAGSTONE_SLAB = ITEMS.register("granite_flagstone_slab", () -> new BlockItem(BlockInit.GRANITE_FLAGSTONE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> GRANITE_FLAGSTONE = ITEMS.register("granite_flagstone", () -> new EngravedBlockTooltip(BlockInit.GRANITE_FLAGSTONE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> SANDSTONE_FLAGSTONE_PATH = ITEMS.register("sandstone_flagstone_path", () -> new BlockItem(BlockInit.SANDSTONE_FLAGSTONE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> SANDSTONE_FLAGSTONE_SLAB = ITEMS.register("sandstone_flagstone_slab", () -> new BlockItem(BlockInit.SANDSTONE_FLAGSTONE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> SANDSTONE_FLAGSTONE = ITEMS.register("sandstone_flagstone", () -> new EngravedBlockTooltip(BlockInit.SANDSTONE_FLAGSTONE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> RED_SANDSTONE_FLAGSTONE_PATH = ITEMS.register("red_sandstone_flagstone_path", () -> new BlockItem(BlockInit.RED_SANDSTONE_FLAGSTONE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> RED_SANDSTONE_FLAGSTONE_SLAB = ITEMS.register("red_sandstone_flagstone_slab", () -> new BlockItem(BlockInit.RED_SANDSTONE_FLAGSTONE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> RED_SANDSTONE_FLAGSTONE = ITEMS.register("red_sandstone_flagstone", () -> new EngravedBlockTooltip(BlockInit.RED_SANDSTONE_FLAGSTONE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BRICK_FLAGSTONE_PATH = ITEMS.register("brick_flagstone_path", () -> new BlockItem(BlockInit.BRICK_FLAGSTONE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BRICK_FLAGSTONE_SLAB = ITEMS.register("brick_flagstone_slab", () -> new BlockItem(BlockInit.BRICK_FLAGSTONE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BRICK_FLAGSTONE = ITEMS.register("brick_flagstone", () -> new EngravedBlockTooltip(BlockInit.BRICK_FLAGSTONE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> STONE_FLAGSTONE_PATH = ITEMS.register("stone_flagstone_path", () -> new BlockItem(BlockInit.STONE_FLAGSTONE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> STONE_FLAGSTONE_SLAB = ITEMS.register("stone_flagstone_slab", () -> new BlockItem(BlockInit.STONE_FLAGSTONE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> STONE_FLAGSTONE = ITEMS.register("stone_flagstone", () -> new EngravedBlockTooltip(BlockInit.STONE_FLAGSTONE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MOSSY_STONE_FLAGSTONE_PATH = ITEMS.register("mossy_stone_flagstone_path", () -> new BlockItem(BlockInit.MOSSY_STONE_FLAGSTONE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MOSSY_STONE_FLAGSTONE_SLAB = ITEMS.register("mossy_stone_flagstone_slab", () -> new BlockItem(BlockInit.MOSSY_STONE_FLAGSTONE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MOSSY_STONE_FLAGSTONE = ITEMS.register("mossy_stone_flagstone", () -> new EngravedBlockTooltip(BlockInit.MOSSY_STONE_FLAGSTONE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> COBBLED_DEEPSLATE_FLAGSTONE_PATH = ITEMS.register("cobbled_deepslate_flagstone_path", () -> new BlockItem(BlockInit.COBBLED_DEEPSLATE_FLAGSTONE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> COBBLED_DEEPSLATE_FLAGSTONE_SLAB = ITEMS.register("cobbled_deepslate_flagstone_slab", () -> new BlockItem(BlockInit.COBBLED_DEEPSLATE_FLAGSTONE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> COBBLED_DEEPSLATE_FLAGSTONE = ITEMS.register("cobbled_deepslate_flagstone", () -> new EngravedBlockTooltip(BlockInit.COBBLED_DEEPSLATE_FLAGSTONE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DEEPSLATE_FLAGSTONE_PATH = ITEMS.register("deepslate_flagstone_path", () -> new BlockItem(BlockInit.DEEPSLATE_FLAGSTONE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DEEPSLATE_FLAGSTONE_SLAB = ITEMS.register("deepslate_flagstone_slab", () -> new BlockItem(BlockInit.DEEPSLATE_FLAGSTONE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DEEPSLATE_FLAGSTONE = ITEMS.register("deepslate_flagstone", () -> new EngravedBlockTooltip(BlockInit.DEEPSLATE_FLAGSTONE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MUD_BRICK_FLAGSTONE_PATH = ITEMS.register("mud_brick_flagstone_path", () -> new BlockItem(BlockInit.MUD_BRICK_FLAGSTONE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MUD_BRICK_FLAGSTONE_SLAB = ITEMS.register("mud_brick_flagstone_slab", () -> new BlockItem(BlockInit.MUD_BRICK_FLAGSTONE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MUD_BRICK_FLAGSTONE = ITEMS.register("mud_brick_flagstone", () -> new EngravedBlockTooltip(BlockInit.MUD_BRICK_FLAGSTONE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BLACKSTONE_FLAGSTONE_PATH = ITEMS.register("blackstone_flagstone_path", () -> new BlockItem(BlockInit.BLACKSTONE_FLAGSTONE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BLACKSTONE_FLAGSTONE_SLAB = ITEMS.register("blackstone_flagstone_slab", () -> new BlockItem(BlockInit.BLACKSTONE_FLAGSTONE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BLACKSTONE_FLAGSTONE = ITEMS.register("blackstone_flagstone", () -> new EngravedBlockTooltip(BlockInit.BLACKSTONE_FLAGSTONE.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DARK_PRISMARINE_FLAGSTONE_PATH = ITEMS.register("dark_prismarine_flagstone_path", () -> new BlockItem(BlockInit.DARK_PRISMARINE_FLAGSTONE_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DARK_PRISMARINE_FLAGSTONE_SLAB = ITEMS.register("dark_prismarine_flagstone_slab", () -> new BlockItem(BlockInit.DARK_PRISMARINE_FLAGSTONE_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DARK_PRISMARINE_FLAGSTONE = ITEMS.register("dark_prismarine_flagstone", () -> new EngravedBlockTooltip(BlockInit.DARK_PRISMARINE_FLAGSTONE.get(), new Item.Properties()));
+	
+	public static final RegistryObject<Item> ANDESITE_CRYSTAL_FLOOR_PATH = ITEMS.register("andesite_crystal_floor_path", () -> new BlockItem(BlockInit.ANDESITE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> ANDESITE_CRYSTAL_FLOOR_SLAB = ITEMS.register("andesite_crystal_floor_slab", () -> new BlockItem(BlockInit.ANDESITE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> ANDESITE_CRYSTAL_FLOOR = ITEMS.register("andesite_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.ANDESITE_CRYSTAL_FLOOR.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DIORITE_CRYSTAL_FLOOR_PATH = ITEMS.register("diorite_crystal_floor_path", () -> new BlockItem(BlockInit.DIORITE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DIORITE_CRYSTAL_FLOOR_SLAB = ITEMS.register("diorite_crystal_floor_slab", () -> new BlockItem(BlockInit.DIORITE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DIORITE_CRYSTAL_FLOOR = ITEMS.register("diorite_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.DIORITE_CRYSTAL_FLOOR.get(), new Item.Properties()));
+	public static final RegistryObject<Item> GRANITE_CRYSTAL_FLOOR_PATH = ITEMS.register("granite_crystal_floor_path", () -> new BlockItem(BlockInit.GRANITE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> GRANITE_CRYSTAL_FLOOR_SLAB = ITEMS.register("granite_crystal_floor_slab", () -> new BlockItem(BlockInit.GRANITE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> GRANITE_CRYSTAL_FLOOR = ITEMS.register("granite_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.GRANITE_CRYSTAL_FLOOR.get(), new Item.Properties()));
+	public static final RegistryObject<Item> SANDSTONE_CRYSTAL_FLOOR_PATH = ITEMS.register("sandstone_crystal_floor_path", () -> new BlockItem(BlockInit.SANDSTONE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> SANDSTONE_CRYSTAL_FLOOR_SLAB = ITEMS.register("sandstone_crystal_floor_slab", () -> new BlockItem(BlockInit.SANDSTONE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> SANDSTONE_CRYSTAL_FLOOR = ITEMS.register("sandstone_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.SANDSTONE_CRYSTAL_FLOOR.get(), new Item.Properties()));
+	public static final RegistryObject<Item> RED_SANDSTONE_CRYSTAL_FLOOR_PATH = ITEMS.register("red_sandstone_crystal_floor_path", () -> new BlockItem(BlockInit.RED_SANDSTONE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> RED_SANDSTONE_CRYSTAL_FLOOR_SLAB = ITEMS.register("red_sandstone_crystal_floor_slab", () -> new BlockItem(BlockInit.RED_SANDSTONE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> RED_SANDSTONE_CRYSTAL_FLOOR = ITEMS.register("red_sandstone_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.RED_SANDSTONE_CRYSTAL_FLOOR.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BRICK_CRYSTAL_FLOOR_PATH = ITEMS.register("brick_crystal_floor_path", () -> new BlockItem(BlockInit.BRICK_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BRICK_CRYSTAL_FLOOR_SLAB = ITEMS.register("brick_crystal_floor_slab", () -> new BlockItem(BlockInit.BRICK_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BRICK_CRYSTAL_FLOOR = ITEMS.register("brick_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.BRICK_CRYSTAL_FLOOR.get(), new Item.Properties()));
+	public static final RegistryObject<Item> STONE_CRYSTAL_FLOOR_PATH = ITEMS.register("stone_crystal_floor_path", () -> new BlockItem(BlockInit.STONE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> STONE_CRYSTAL_FLOOR_SLAB = ITEMS.register("stone_crystal_floor_slab", () -> new BlockItem(BlockInit.STONE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> STONE_CRYSTAL_FLOOR = ITEMS.register("stone_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.STONE_CRYSTAL_FLOOR.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MOSSY_STONE_CRYSTAL_FLOOR_PATH = ITEMS.register("mossy_stone_crystal_floor_path", () -> new BlockItem(BlockInit.MOSSY_STONE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MOSSY_STONE_CRYSTAL_FLOOR_SLAB = ITEMS.register("mossy_stone_crystal_floor_slab", () -> new BlockItem(BlockInit.MOSSY_STONE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MOSSY_STONE_CRYSTAL_FLOOR = ITEMS.register("mossy_stone_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.MOSSY_STONE_CRYSTAL_FLOOR.get(), new Item.Properties()));
+	public static final RegistryObject<Item> COBBLED_DEEPSLATE_CRYSTAL_FLOOR_PATH = ITEMS.register("cobbled_deepslate_crystal_floor_path", () -> new BlockItem(BlockInit.COBBLED_DEEPSLATE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> COBBLED_DEEPSLATE_CRYSTAL_FLOOR_SLAB = ITEMS.register("cobbled_deepslate_crystal_floor_slab", () -> new BlockItem(BlockInit.COBBLED_DEEPSLATE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> COBBLED_DEEPSLATE_CRYSTAL_FLOOR = ITEMS.register("cobbled_deepslate_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.COBBLED_DEEPSLATE_CRYSTAL_FLOOR.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DEEPSLATE_CRYSTAL_FLOOR_PATH = ITEMS.register("deepslate_crystal_floor_path", () -> new BlockItem(BlockInit.DEEPSLATE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DEEPSLATE_CRYSTAL_FLOOR_SLAB = ITEMS.register("deepslate_crystal_floor_slab", () -> new BlockItem(BlockInit.DEEPSLATE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DEEPSLATE_CRYSTAL_FLOOR = ITEMS.register("deepslate_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.DEEPSLATE_CRYSTAL_FLOOR.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MUD_BRICK_CRYSTAL_FLOOR_PATH = ITEMS.register("mud_brick_crystal_floor_path", () -> new BlockItem(BlockInit.MUD_BRICK_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MUD_BRICK_CRYSTAL_FLOOR_SLAB = ITEMS.register("mud_brick_crystal_floor_slab", () -> new BlockItem(BlockInit.MUD_BRICK_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> MUD_BRICK_CRYSTAL_FLOOR = ITEMS.register("mud_brick_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.MUD_BRICK_CRYSTAL_FLOOR.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BLACKSTONE_CRYSTAL_FLOOR_PATH = ITEMS.register("blackstone_crystal_floor_path", () -> new BlockItem(BlockInit.BLACKSTONE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BLACKSTONE_CRYSTAL_FLOOR_SLAB = ITEMS.register("blackstone_crystal_floor_slab", () -> new BlockItem(BlockInit.BLACKSTONE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> BLACKSTONE_CRYSTAL_FLOOR = ITEMS.register("blackstone_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.BLACKSTONE_CRYSTAL_FLOOR.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DARK_PRISMARINE_CRYSTAL_FLOOR_PATH = ITEMS.register("dark_prismarine_crystal_floor_path", () -> new BlockItem(BlockInit.DARK_PRISMARINE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DARK_PRISMARINE_CRYSTAL_FLOOR_SLAB = ITEMS.register("dark_prismarine_crystal_floor_slab", () -> new BlockItem(BlockInit.DARK_PRISMARINE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
+	public static final RegistryObject<Item> DARK_PRISMARINE_CRYSTAL_FLOOR = ITEMS.register("dark_prismarine_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.DARK_PRISMARINE_CRYSTAL_FLOOR.get(), new Item.Properties()));
 
-		public static final RegistryObject<Item> ANDESITE_CRYSTAL_FLOOR_PATH = ITEMS.register("andesite_crystal_floor_path", () -> new BlockItem(BlockInit.ANDESITE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> ANDESITE_CRYSTAL_FLOOR_SLAB = ITEMS.register("andesite_crystal_floor_slab", () -> new BlockItem(BlockInit.ANDESITE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> ANDESITE_CRYSTAL_FLOOR = ITEMS.register("andesite_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.ANDESITE_CRYSTAL_FLOOR.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DIORITE_CRYSTAL_FLOOR_PATH = ITEMS.register("diorite_crystal_floor_path", () -> new BlockItem(BlockInit.DIORITE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DIORITE_CRYSTAL_FLOOR_SLAB = ITEMS.register("diorite_crystal_floor_slab", () -> new BlockItem(BlockInit.DIORITE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DIORITE_CRYSTAL_FLOOR = ITEMS.register("diorite_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.DIORITE_CRYSTAL_FLOOR.get(), new Item.Properties()));
-		public static final RegistryObject<Item> GRANITE_CRYSTAL_FLOOR_PATH = ITEMS.register("granite_crystal_floor_path", () -> new BlockItem(BlockInit.GRANITE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> GRANITE_CRYSTAL_FLOOR_SLAB = ITEMS.register("granite_crystal_floor_slab", () -> new BlockItem(BlockInit.GRANITE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> GRANITE_CRYSTAL_FLOOR = ITEMS.register("granite_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.GRANITE_CRYSTAL_FLOOR.get(), new Item.Properties()));
-		public static final RegistryObject<Item> SANDSTONE_CRYSTAL_FLOOR_PATH = ITEMS.register("sandstone_crystal_floor_path", () -> new BlockItem(BlockInit.SANDSTONE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> SANDSTONE_CRYSTAL_FLOOR_SLAB = ITEMS.register("sandstone_crystal_floor_slab", () -> new BlockItem(BlockInit.SANDSTONE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> SANDSTONE_CRYSTAL_FLOOR = ITEMS.register("sandstone_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.SANDSTONE_CRYSTAL_FLOOR.get(), new Item.Properties()));
-		public static final RegistryObject<Item> RED_SANDSTONE_CRYSTAL_FLOOR_PATH = ITEMS.register("red_sandstone_crystal_floor_path", () -> new BlockItem(BlockInit.RED_SANDSTONE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> RED_SANDSTONE_CRYSTAL_FLOOR_SLAB = ITEMS.register("red_sandstone_crystal_floor_slab", () -> new BlockItem(BlockInit.RED_SANDSTONE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> RED_SANDSTONE_CRYSTAL_FLOOR = ITEMS.register("red_sandstone_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.RED_SANDSTONE_CRYSTAL_FLOOR.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BRICK_CRYSTAL_FLOOR_PATH = ITEMS.register("brick_crystal_floor_path", () -> new BlockItem(BlockInit.BRICK_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BRICK_CRYSTAL_FLOOR_SLAB = ITEMS.register("brick_crystal_floor_slab", () -> new BlockItem(BlockInit.BRICK_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BRICK_CRYSTAL_FLOOR = ITEMS.register("brick_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.BRICK_CRYSTAL_FLOOR.get(), new Item.Properties()));
-		public static final RegistryObject<Item> STONE_CRYSTAL_FLOOR_PATH = ITEMS.register("stone_crystal_floor_path", () -> new BlockItem(BlockInit.STONE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> STONE_CRYSTAL_FLOOR_SLAB = ITEMS.register("stone_crystal_floor_slab", () -> new BlockItem(BlockInit.STONE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> STONE_CRYSTAL_FLOOR = ITEMS.register("stone_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.STONE_CRYSTAL_FLOOR.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MOSSY_STONE_CRYSTAL_FLOOR_PATH = ITEMS.register("mossy_stone_crystal_floor_path", () -> new BlockItem(BlockInit.MOSSY_STONE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MOSSY_STONE_CRYSTAL_FLOOR_SLAB = ITEMS.register("mossy_stone_crystal_floor_slab", () -> new BlockItem(BlockInit.MOSSY_STONE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MOSSY_STONE_CRYSTAL_FLOOR = ITEMS.register("mossy_stone_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.MOSSY_STONE_CRYSTAL_FLOOR.get(), new Item.Properties()));
-		public static final RegistryObject<Item> COBBLED_DEEPSLATE_CRYSTAL_FLOOR_PATH = ITEMS.register("cobbled_deepslate_crystal_floor_path", () -> new BlockItem(BlockInit.COBBLED_DEEPSLATE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> COBBLED_DEEPSLATE_CRYSTAL_FLOOR_SLAB = ITEMS.register("cobbled_deepslate_crystal_floor_slab", () -> new BlockItem(BlockInit.COBBLED_DEEPSLATE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> COBBLED_DEEPSLATE_CRYSTAL_FLOOR = ITEMS.register("cobbled_deepslate_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.COBBLED_DEEPSLATE_CRYSTAL_FLOOR.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DEEPSLATE_CRYSTAL_FLOOR_PATH = ITEMS.register("deepslate_crystal_floor_path", () -> new BlockItem(BlockInit.DEEPSLATE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DEEPSLATE_CRYSTAL_FLOOR_SLAB = ITEMS.register("deepslate_crystal_floor_slab", () -> new BlockItem(BlockInit.DEEPSLATE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DEEPSLATE_CRYSTAL_FLOOR = ITEMS.register("deepslate_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.DEEPSLATE_CRYSTAL_FLOOR.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MUD_BRICK_CRYSTAL_FLOOR_PATH = ITEMS.register("mud_brick_crystal_floor_path", () -> new BlockItem(BlockInit.MUD_BRICK_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MUD_BRICK_CRYSTAL_FLOOR_SLAB = ITEMS.register("mud_brick_crystal_floor_slab", () -> new BlockItem(BlockInit.MUD_BRICK_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> MUD_BRICK_CRYSTAL_FLOOR = ITEMS.register("mud_brick_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.MUD_BRICK_CRYSTAL_FLOOR.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BLACKSTONE_CRYSTAL_FLOOR_PATH = ITEMS.register("blackstone_crystal_floor_path", () -> new BlockItem(BlockInit.BLACKSTONE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BLACKSTONE_CRYSTAL_FLOOR_SLAB = ITEMS.register("blackstone_crystal_floor_slab", () -> new BlockItem(BlockInit.BLACKSTONE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> BLACKSTONE_CRYSTAL_FLOOR = ITEMS.register("blackstone_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.BLACKSTONE_CRYSTAL_FLOOR.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DARK_PRISMARINE_CRYSTAL_FLOOR_PATH = ITEMS.register("dark_prismarine_crystal_floor_path", () -> new BlockItem(BlockInit.DARK_PRISMARINE_CRYSTAL_FLOOR_PATH.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DARK_PRISMARINE_CRYSTAL_FLOOR_SLAB = ITEMS.register("dark_prismarine_crystal_floor_slab", () -> new BlockItem(BlockInit.DARK_PRISMARINE_CRYSTAL_FLOOR_SLAB.get(), new Item.Properties()));
-		public static final RegistryObject<Item> DARK_PRISMARINE_CRYSTAL_FLOOR = ITEMS.register("dark_prismarine_crystal_floor", () -> new EngravedBlockTooltip(BlockInit.DARK_PRISMARINE_CRYSTAL_FLOOR.get(), new Item.Properties()));
-
-//1.1.0 stuff
-
+	//1.1.0 stuff
+	
 	public static final RegistryObject<Item> PODZOL_PATH_BLOCK = ITEMS.register("podzol_path_block", () -> new FlattenedBlockTooltip(BlockInit.PODZOL_PATH_BLOCK.get(), new Item.Properties()));
 	public static final RegistryObject<Item> DIRT_PATH_BLOCK = ITEMS.register("dirt_path_block", () -> new FlattenedBlockTooltip(BlockInit.DIRT_PATH_BLOCK.get(), new Item.Properties()));
 	public static final RegistryObject<Item> GRAVEL_PATH_BLOCK = ITEMS.register("gravel_path_block", () -> new FlattenedBlockTooltip(BlockInit.GRAVEL_PATH_BLOCK.get(), new Item.Properties()));
@@ -374,5 +377,5 @@ public class ItemInit {
 	public static final RegistryObject<Item> BLACKSTONE_CRYSTAL_FLOOR_STAIRS = ITEMS.register("blackstone_crystal_floor_stairs", () -> new BlockItem(BlockInit.BLACKSTONE_CRYSTAL_FLOOR_STAIRS.get(), new Item.Properties()));
 	public static final RegistryObject<Item> DARK_PRISMARINE_CRYSTAL_FLOOR_STAIRS = ITEMS.register("dark_prismarine_crystal_floor_stairs", () -> new BlockItem(BlockInit.DARK_PRISMARINE_CRYSTAL_FLOOR_STAIRS.get(), new Item.Properties()));
 
-	
+
 }

@@ -1,0 +1,8 @@
+{
+  "parent" : "minecraft:block/outer_stairs",
+  "textures" : {
+    "bottom" : "mcwpaths:block/blackstone_windmill_weave",
+    "side" : "mcwpaths:block/blackstone_windmill_weave",
+    "top" : "mcwpaths:block/blackstone_windmill_weave"
+  }
+}

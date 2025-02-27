@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "mcwpaths:block/dark_prismarine_crystal_floor",
+    "top": "mcwpaths:block/dark_prismarine_crystal_floor",
+    "side": "mcwpaths:block/dark_prismarine_crystal_floor"
+  }
+}

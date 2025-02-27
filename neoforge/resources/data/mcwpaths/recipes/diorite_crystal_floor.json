@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:diorite"
+    },
+    "result": "mcwpaths:diorite_crystal_floor",
+    "group": "blocks",
+    "count": 1
+}
+
+
+
+
+
+

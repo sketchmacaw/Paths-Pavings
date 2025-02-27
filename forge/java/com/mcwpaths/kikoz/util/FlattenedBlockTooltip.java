@@ -1,5 +1,9 @@
 package com.mcwpaths.kikoz.util;
 
+import java.util.List;
+
+import javax.annotation.Nullable;
+
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
@@ -11,9 +15,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.common.extensions.IForgeItem;
-
-import javax.annotation.Nullable;
-import java.util.List;
 
 public class FlattenedBlockTooltip extends BlockItem implements IForgeItem {
 

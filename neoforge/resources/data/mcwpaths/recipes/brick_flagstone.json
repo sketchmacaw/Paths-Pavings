@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:bricks"
+    },
+    "result": "mcwpaths:brick_flagstone",
+    "group": "blocks",
+    "count": 1
+}
+
+
+
+
+
+

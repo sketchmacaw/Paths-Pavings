@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:deepslate"
+    },
+    "result": "mcwpaths:deepslate_crystal_floor",
+    "group": "blocks",
+    "count": 1
+}
+
+
+
+
+
+

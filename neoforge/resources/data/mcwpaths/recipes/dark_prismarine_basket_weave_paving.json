@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:dark_prismarine"
+    },
+    "result": "mcwpaths:dark_prismarine_basket_weave_paving",
+    "group": "paths",
+    "count": 4
+}

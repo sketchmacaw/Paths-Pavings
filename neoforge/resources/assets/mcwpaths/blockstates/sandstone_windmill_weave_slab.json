@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mcwpaths:block/stone/sandstone_windmill_weave_slab"
+    },
+    "type=double": {
+      "model": "mcwpaths:block/stone/sandstone_windmill_weave"
+    },
+    "type=top": {
+      "model": "mcwpaths:block/stone/sandstone_windmill_weave_slab_top"
+    }
+  }
+}

@@ -28,6 +28,9 @@ public class FacingPathBlock extends PathBlock {
 		   return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getClockWise());
 		   }
 	
+	
+	
+	
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 	builder.add(FACING);

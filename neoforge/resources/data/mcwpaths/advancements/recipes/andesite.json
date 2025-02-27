@@ -1,0 +1,80 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwpaths:andesite_diamond_paving",
+	  "mcwpaths:andesite_basket_weave_paving",
+      "mcwpaths:andesite_square_paving",
+	  "mcwpaths:andesite_honeycomb_paving",
+	  "mcwpaths:andesite_clover_paving",
+	  "mcwpaths:andesite_dumble_paving",
+	  "mcwpaths:andesite_running_bond_path",
+	  "mcwpaths:andesite_running_bond_slab",
+	  "mcwpaths:andesite_running_bond_stairs",
+	  "mcwpaths:andesite_running_bond",
+	  "mcwpaths:andesite_strewn_rocky_path",
+	  "mcwpaths:andesite_windmill_weave_path",
+	  "mcwpaths:andesite_windmill_weave_slab",
+	  "mcwpaths:andesite_windmill_weave_stairs",
+	  "mcwpaths:andesite_windmill_weave",
+	  "mcwpaths:andesite_flagstone_path",
+	  "mcwpaths:andesite_flagstone_slab",
+	  "mcwpaths:andesite_flagstone_stairs",
+	  "mcwpaths:andesite_flagstone",
+	  "mcwpaths:andesite_crystal_floor_path",
+	  "mcwpaths:andesite_crystal_floor_slab",
+	  "mcwpaths:andesite_crystal_floor_stairs",
+	  "mcwpaths:andesite_crystal_floor"
+
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:andesite"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwpaths:andesite_clover_paving"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
