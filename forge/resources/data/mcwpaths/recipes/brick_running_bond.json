@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:bricks"
+    },
+    "result": "mcwpaths:brick_running_bond",
+    "group": "blocks",
+    "count": 1
+}
+
+
+
+
+
+

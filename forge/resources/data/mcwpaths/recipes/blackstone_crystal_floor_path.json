@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:blackstone"
+    },
+    "result": "mcwpaths:blackstone_crystal_floor_path",
+    "group": "paths",
+    "count": 4
+}
+
+
+
+
+
+

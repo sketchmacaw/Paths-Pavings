@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:dark_prismarine"
+    },
+    "result": "mcwpaths:dark_prismarine_windmill_weave",
+    "group": "blocks",
+    "count": 1
+}
+
+
+
+
+
+

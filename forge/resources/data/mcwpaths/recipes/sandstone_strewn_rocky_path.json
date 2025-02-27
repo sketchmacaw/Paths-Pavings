@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:sandstone"
+    },
+    "result": "mcwpaths:sandstone_strewn_rocky_path",
+    "group": "paths",
+    "count": 4
+}
+
+
+
+
+
+

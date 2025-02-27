@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/almost_full_cube",
+  "textures": {
+	  "particle": "mcwpaths:block/red_sandstone_running_bond",
+    "all": "mcwpaths:block/red_sandstone_running_bond"
+  }
+}
