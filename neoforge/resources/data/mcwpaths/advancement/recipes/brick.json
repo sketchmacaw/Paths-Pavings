@@ -1,0 +1,81 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwpaths:brick_diamond_paving",
+	  "mcwpaths:brick_basket_weave_paving",
+      "mcwpaths:brick_square_paving",
+	  "mcwpaths:brick_honeycomb_paving",
+	  "mcwpaths:brick_clover_paving",
+	  "mcwpaths:brick_dumble_paving",
+	  "mcwpaths:brick_running_bond_path",
+	  "mcwpaths:brick_running_bond_slab",
+	  "mcwpaths:brick_running_bond_stairs",
+	  "mcwpaths:brick_running_bond",
+	  "mcwpaths:brick_strewn_rocky_path",
+	  "mcwpaths:brick_windmill_weave_path",
+	  "mcwpaths:brick_windmill_weave_slab",
+	  "mcwpaths:brick_windmill_weave_stairs",
+	  "mcwpaths:brick_windmill_weave",
+	  "mcwpaths:brick_flagstone_path",
+	  "mcwpaths:brick_flagstone_slab",
+	  "mcwpaths:brick_flagstone_stairs",
+	  "mcwpaths:brick_flagstone",
+	  "mcwpaths:brick_crystal_floor_path",
+	  "mcwpaths:brick_crystal_floor_slab",
+	  "mcwpaths:brick_crystal_floor_stairs",
+	  "mcwpaths:brick_crystal_floor"
+
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwpaths:brick_basket_weave_paving"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group" : "wooden_paths",
+  "ingredients": [
+    "minecraft:birch_slab"
+  ],
+  "result": {
+    "count": 3,
+    "id": "mcwpaths:birch_planks_path"
+  }
+}

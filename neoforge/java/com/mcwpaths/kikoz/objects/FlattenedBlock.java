@@ -1,0 +1,70 @@
+package com.mcwpaths.kikoz.objects;
+
+import net.minecraft.core.BlockPos;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.properties.BooleanProperty;
+import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.VoxelShape;
+
+public class FlattenedBlock  extends Block {
+
+	public static final BooleanProperty FLATTENED = BooleanProperty.create("flattened");
+	
+	protected static final VoxelShape CUBE = Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D);
+	protected static final VoxelShape ENGRAVE = Block.box(0.0D, 0.0D, 0.0D, 16.0D, 15.0D, 16.0D);
+	
+    public FlattenedBlock(Properties properties) {
+        super(properties);
+    	this.registerDefaultState(this.stateDefinition.any().setValue(FLATTENED, false));
+    }
+
+    @Override
+    public VoxelShape getShape(BlockState state, BlockGetter reader, BlockPos pos, CollisionContext context) {
+        boolean engraved = state.getValue(FLATTENED);
+        return engraved ? ENGRAVE : CUBE;
+    }
+
+    @Override
+	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+	    builder.add(FLATTENED);
+	}
+    
+    @Override
+    public InteractionResult useItemOn(ItemStack pStack, BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
+        ItemStack heldItem = player.getItemInHand(hand);
+        Item item = heldItem.getItem();
+
+        if (item == Items.DIAMOND_SHOVEL || 
+        	    item == Items.GOLDEN_SHOVEL || 
+        	    item == Items.IRON_SHOVEL || 
+        	    item == Items.STONE_SHOVEL || 
+        	    item == Items.WOODEN_SHOVEL || 
+        	    item == Items.NETHERITE_SHOVEL) {
+        	    if (level.isClientSide()) {
+        	        return InteractionResult.SUCCESS;
+        	    }
+
+            level.playSound(null, pos, SoundEvents.SHOVEL_FLATTEN, SoundSource.BLOCKS, 1.0F, level.getRandom().nextFloat() * 0.1F + 0.9F);
+
+            BlockState newState = state.cycle(FLATTENED);
+            level.setBlock(pos, newState, 3); 
+            
+            return InteractionResult.SUCCESS;
+        }
+        return InteractionResult.PASS;
+    }
+    
+	}

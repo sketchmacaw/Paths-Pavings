@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/strewn1",
+  "textures": {
+	"particle": "minecraft:block/cobbled_deepslate",
+    "0": "minecraft:block/cobbled_deepslate"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "variants": {                                                                        
+        "engraved=false":  { "model": "mcwpaths:block/stone/sandstone_windmill_weave"},
+		"engraved=true":  { "model": "mcwpaths:block/stone_engraved/sandstone_windmill_weave"}
+    }
+}

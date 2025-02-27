@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "mcwpaths:block/sandstone_running_bond",
+    "top": "mcwpaths:block/sandstone_running_bond",
+    "side": "mcwpaths:block/sandstone_running_bond"
+  }
+}

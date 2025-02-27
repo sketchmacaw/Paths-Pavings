@@ -1,0 +1,6 @@
+{
+    "variants": {                                                                        
+        "flattened=false":  { "model": "mcwpaths:block/soil/red_sand_path_block"},
+		"flattened=true":  { "model": "mcwpaths:block/soil/flattened_red_sand_path_block"}
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "mcwpaths:block/brick_crystal_floor",
+    "top": "mcwpaths:block/brick_crystal_floor",
+    "side": "mcwpaths:block/brick_crystal_floor"
+  }
+}

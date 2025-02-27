@@ -1,0 +1,8 @@
+{
+  "parent" : "minecraft:block/outer_stairs",
+  "textures" : {
+    "bottom" : "mcwpaths:block/stone_flagstone",
+    "side" : "mcwpaths:block/stone_flagstone",
+    "top" : "mcwpaths:block/stone_flagstone"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "variants": {                                                                        
+        "engraved=false":  { "model": "mcwpaths:block/stone/andesite_crystal_floor"},
+		"engraved=true":  { "model": "mcwpaths:block/stone_engraved/andesite_crystal_floor"}
+    }
+}

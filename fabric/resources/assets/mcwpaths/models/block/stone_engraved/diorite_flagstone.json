@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/almost_full_cube",
+  "textures": {
+	  "particle": "mcwpaths:block/diorite_flagstone",
+    "all": "mcwpaths:block/diorite_flagstone"
+  }
+}

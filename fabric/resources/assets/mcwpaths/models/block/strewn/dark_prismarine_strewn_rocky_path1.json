@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/strewn1",
+  "textures": {
+	"particle": "minecraft:block/dark_prismarine",
+    "0": "minecraft:block/dark_prismarine"
+  }
+}

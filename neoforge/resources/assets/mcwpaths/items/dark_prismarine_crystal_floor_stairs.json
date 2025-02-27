@@ -1,0 +1,6 @@
+{
+  "model" : {
+    "type" : "minecraft:model",
+    "model" : "mcwpaths:block/stairs/dark_prismarine_crystal_floor_stairs"
+  }
+}

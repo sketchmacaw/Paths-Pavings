@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/dumble",
+  "textures": {
+	"particle": "mcwpaths:block/dark_prismarine_dumble_paving",
+    "0": "mcwpaths:block/dark_prismarine_dumble_paving"
+  }
+}
