@@ -1,0 +1,8 @@
+{
+  "parent" : "minecraft:block/inner_stairs",
+  "textures" : {
+    "bottom" : "mcwpaths:block/cobbled_deepslate_windmill_weave",
+    "side" : "mcwpaths:block/cobbled_deepslate_windmill_weave",
+    "top" : "mcwpaths:block/cobbled_deepslate_windmill_weave"
+  }
+}

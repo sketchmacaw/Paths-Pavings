@@ -1,17 +1,21 @@
 package com.mcwpaths.kikoz.util;
 
-import net.minecraft.block.Block;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.ItemStack;
+import javax.annotation.Nullable;
 
-	public class FuelItemBlock extends BlockItem {
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.RecipeType;
+import net.minecraft.world.level.block.Block;
+import net.minecraftforge.common.extensions.IForgeItem;
+
+public class FuelItemBlock extends BlockItem implements IForgeItem {
 
 		public FuelItemBlock(Block block, Properties prop) {
 			super(block, prop);
 		}
 
 		@Override
-		public int getBurnTime (ItemStack itemStack) {
+		public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
 			return 50;
 		}
 }
