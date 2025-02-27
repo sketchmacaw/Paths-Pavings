@@ -1,7 +1,0 @@
-{
-  "parent": "mcwpaths:block/basket_weave",
-  "textures": {
-	"particle": "mcwpaths:block/blackstone_basket_weave_paving",
-    "0": "mcwpaths:block/blackstone_basket_weave_paving"
-  }
-}
