@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/strewn2",
+  "textures": {
+	"particle": "minecraft:block/sandstone_top",
+    "0": "minecraft:block/sandstone_top"
+  }
+}

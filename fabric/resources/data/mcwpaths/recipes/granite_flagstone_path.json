@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:granite"
+    },
+    "result": "mcwpaths:granite_flagstone_path",
+    "group": "paths",
+    "count": 4
+}
+
+
+
+
+
+

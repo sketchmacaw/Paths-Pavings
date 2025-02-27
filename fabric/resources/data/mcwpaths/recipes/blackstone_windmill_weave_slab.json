@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:blackstone"
+    },
+    "result": "mcwpaths:blackstone_windmill_weave_slab",
+    "group": "slabs",
+    "count": 2
+}
+
+
+
+
+
+

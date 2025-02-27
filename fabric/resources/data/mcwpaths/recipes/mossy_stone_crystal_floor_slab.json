@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:mossy_stone_bricks"
+    },
+    "result": "mcwpaths:mossy_stone_crystal_floor_slab",
+    "group": "slabs",
+    "count": 2
+}
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:granite"
+    },
+    "result": "mcwpaths:granite_running_bond_slab",
+    "group": "slabs",
+    "count": 2
+}
+
+
+
+
+
+

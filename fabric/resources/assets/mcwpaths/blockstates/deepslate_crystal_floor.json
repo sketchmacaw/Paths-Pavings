@@ -1,0 +1,6 @@
+{
+    "variants": {                                                                        
+        "engraved=false":  { "model": "mcwpaths:block/stone/deepslate_crystal_floor"},
+		"engraved=true":  { "model": "mcwpaths:block/stone_engraved/deepslate_crystal_floor"}
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:stone_bricks"
+    },
+    "result": "mcwpaths:stone_windmill_weave_slab",
+    "group": "slabs",
+    "count": 2
+}
+
+
+
+
+
+

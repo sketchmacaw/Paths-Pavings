@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/almost_full_cube",
+  "textures": {
+	  "particle": "mcwpaths:block/deepslate_flagstone",
+    "all": "mcwpaths:block/deepslate_flagstone"
+  }
+}

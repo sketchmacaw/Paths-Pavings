@@ -11,9 +11,9 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class BlockInit {
 
@@ -32,9 +32,9 @@ public class BlockInit {
 	public static final RegistryObject<Block> DARK_OAK_PLANKS_PATH = BLOCKS.register("dark_oak_planks_path", () -> new FacingPathBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)));
 	public static final RegistryObject<Block> CRIMSON_PLANKS_PATH = BLOCKS.register("crimson_planks_path", () -> new FacingPathBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
 	public static final RegistryObject<Block> WARPED_PLANKS_PATH = BLOCKS.register("warped_planks_path", () -> new FacingPathBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)));
-
+	
 	//pavings
-
+	
 
 	public static final RegistryObject<Block> ANDESITE_DIAMOND_PAVING = BLOCKS.register("andesite_diamond_paving", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
 	public static final RegistryObject<Block> ANDESITE_BASKET_WEAVE_PAVING = BLOCKS.register("andesite_basket_weave_paving", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
@@ -42,14 +42,14 @@ public class BlockInit {
 	public static final RegistryObject<Block> ANDESITE_HONEYCOMB_PAVING = BLOCKS.register("andesite_honeycomb_paving", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
 	public static final RegistryObject<Block> ANDESITE_CLOVER_PAVING = BLOCKS.register("andesite_clover_paving", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
 	public static final RegistryObject<Block> ANDESITE_DUMBLE_PAVING = BLOCKS.register("andesite_dumble_paving", () -> new FacingPathBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
-
+	
 	public static final RegistryObject<Block> DIORITE_DIAMOND_PAVING = BLOCKS.register("diorite_diamond_paving", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)));
 	public static final RegistryObject<Block> DIORITE_BASKET_WEAVE_PAVING = BLOCKS.register("diorite_basket_weave_paving", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)));
 	public static final RegistryObject<Block> DIORITE_SQUARE_PAVING = BLOCKS.register("diorite_square_paving", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)));
 	public static final RegistryObject<Block> DIORITE_HONEYCOMB_PAVING = BLOCKS.register("diorite_honeycomb_paving", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)));
 	public static final RegistryObject<Block> DIORITE_CLOVER_PAVING = BLOCKS.register("diorite_clover_paving", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)));
 	public static final RegistryObject<Block> DIORITE_DUMBLE_PAVING = BLOCKS.register("diorite_dumble_paving", () -> new FacingPathBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)));
-
+	
 	public static final RegistryObject<Block> GRANITE_DIAMOND_PAVING = BLOCKS.register("granite_diamond_paving", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)));
 	public static final RegistryObject<Block> GRANITE_BASKET_WEAVE_PAVING = BLOCKS.register("granite_basket_weave_paving", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)));
 	public static final RegistryObject<Block> GRANITE_SQUARE_PAVING = BLOCKS.register("granite_square_paving", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)));
@@ -107,7 +107,7 @@ public class BlockInit {
 	public static final RegistryObject<Block> DEEPSLATE_DUMBLE_PAVING = BLOCKS.register("deepslate_dumble_paving", () -> new FacingPathBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)));
 
 	//1.0.2 Update
-
+	
 	public static final RegistryObject<Block> BLACKSTONE_DIAMOND_PAVING = BLOCKS.register("blackstone_diamond_paving", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)));
 	public static final RegistryObject<Block> BLACKSTONE_BASKET_WEAVE_PAVING = BLOCKS.register("blackstone_basket_weave_paving", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)));
 	public static final RegistryObject<Block> BLACKSTONE_SQUARE_PAVING = BLOCKS.register("blackstone_square_paving", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)));
@@ -123,7 +123,7 @@ public class BlockInit {
 	public static final RegistryObject<Block> DARK_PRISMARINE_DUMBLE_PAVING = BLOCKS.register("dark_prismarine_dumble_paving", () -> new FacingPathBlock(BlockBehaviour.Properties.copy(Blocks.DARK_PRISMARINE)));
 
 	// 1.0.3 Update
-
+	
 	public static final RegistryObject<Block> ANDESITE_RUNNING_BOND_PATH = BLOCKS.register("andesite_running_bond_path", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.DARK_PRISMARINE)));
 	public static final RegistryObject<Block> ANDESITE_RUNNING_BOND_SLAB = BLOCKS.register("andesite_running_bond_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_PRISMARINE)));
 	public static final RegistryObject<Block> ANDESITE_RUNNING_BOND = ENGRAVED_BLOCKS.register("andesite_running_bond", () -> new EngravedBlock(BlockBehaviour.Properties.copy(Blocks.DARK_PRISMARINE)));
@@ -186,8 +186,8 @@ public class BlockInit {
 	public static final RegistryObject<Block> DEEPSLATE_STREWN_ROCKY_PATH = BLOCKS.register("deepslate_strewn_rocky_path", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)));
 	public static final RegistryObject<Block> BLACKSTONE_STREWN_ROCKY_PATH = BLOCKS.register("blackstone_strewn_rocky_path", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)));
 	public static final RegistryObject<Block> DARK_PRISMARINE_STREWN_ROCKY_PATH = BLOCKS.register("dark_prismarine_strewn_rocky_path", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.DARK_PRISMARINE)));
-
-
+		
+			
 
 	public static final RegistryObject<Block> ANDESITE_WINDMILL_WEAVE_PATH = BLOCKS.register("andesite_windmill_weave_path", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
 	public static final RegistryObject<Block> ANDESITE_WINDMILL_WEAVE_SLAB = BLOCKS.register("andesite_windmill_weave_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
@@ -237,10 +237,10 @@ public class BlockInit {
 	public static final RegistryObject<Block> DARK_PRISMARINE_WINDMILL_WEAVE_SLAB = BLOCKS.register("dark_prismarine_windmill_weave_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_PRISMARINE)));
 	public static final RegistryObject<Block> DARK_PRISMARINE_WINDMILL_WEAVE = ENGRAVED_BLOCKS.register("dark_prismarine_windmill_weave", () -> new EngravedBlock(BlockBehaviour.Properties.copy(Blocks.DARK_PRISMARINE)));
 
-
-
-
-
+	
+	
+	
+	
 	public static final RegistryObject<Block> ANDESITE_FLAGSTONE_PATH = BLOCKS.register("andesite_flagstone_path", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
 	public static final RegistryObject<Block> ANDESITE_FLAGSTONE_SLAB = BLOCKS.register("andesite_flagstone_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
 	public static final RegistryObject<Block> ANDESITE_FLAGSTONE = ENGRAVED_BLOCKS.register("andesite_flagstone", () -> new EngravedBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
@@ -289,9 +289,9 @@ public class BlockInit {
 	public static final RegistryObject<Block> DARK_PRISMARINE_FLAGSTONE_SLAB = BLOCKS.register("dark_prismarine_flagstone_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_PRISMARINE)));
 	public static final RegistryObject<Block> DARK_PRISMARINE_FLAGSTONE = ENGRAVED_BLOCKS.register("dark_prismarine_flagstone", () -> new EngravedBlock(BlockBehaviour.Properties.copy(Blocks.DARK_PRISMARINE)));
 
-
-
-
+	
+	
+	
 	public static final RegistryObject<Block> ANDESITE_CRYSTAL_FLOOR_PATH = BLOCKS.register("andesite_crystal_floor_path", () -> new PathBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
 	public static final RegistryObject<Block> ANDESITE_CRYSTAL_FLOOR_SLAB = BLOCKS.register("andesite_crystal_floor_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
 	public static final RegistryObject<Block> ANDESITE_CRYSTAL_FLOOR = ENGRAVED_BLOCKS.register("andesite_crystal_floor", () -> new EngravedBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));

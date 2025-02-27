@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:dark_prismarine"
+    },
+    "result": "mcwpaths:dark_prismarine_crystal_floor_stairs",
+    "group": "stairs",
+    "count": 1
+}
+
+
+
+
+
+

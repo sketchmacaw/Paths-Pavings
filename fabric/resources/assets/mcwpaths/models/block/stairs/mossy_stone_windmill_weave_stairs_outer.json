@@ -1,0 +1,8 @@
+{
+  "parent" : "minecraft:block/outer_stairs",
+  "textures" : {
+    "bottom" : "mcwpaths:block/mossy_stone_windmill_weave",
+    "side" : "mcwpaths:block/mossy_stone_windmill_weave",
+    "top" : "mcwpaths:block/mossy_stone_windmill_weave"
+  }
+}

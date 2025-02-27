@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:andesite"
+    },
+    "result": "mcwpaths:andesite_flagstone",
+    "group": "blocks",
+    "count": 1
+}
+
+
+
+
+
+
