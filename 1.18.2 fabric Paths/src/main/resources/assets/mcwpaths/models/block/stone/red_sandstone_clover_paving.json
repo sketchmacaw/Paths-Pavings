@@ -1,7 +1,0 @@
-{
-  "parent": "mcwpaths:block/clover",
-  "textures": {
-	"particle": "mcwpaths:block/red_sandstone_clover_paving",
-    "0": "mcwpaths:block/red_sandstone_clover_paving"
-  }
-}
