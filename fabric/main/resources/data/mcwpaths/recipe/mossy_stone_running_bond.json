@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:stonecutting",
+  "ingredient" : "minecraft:mossy_stone_bricks",
+  "group" : "blocks",
+  "result" : {
+    "count" : 1,
+    "id" : "mcwpaths:mossy_stone_running_bond"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "model" : {
+    "type" : "minecraft:model",
+    "model" : "mcwpaths:block/soil/sand_path_block"
+  }
+}

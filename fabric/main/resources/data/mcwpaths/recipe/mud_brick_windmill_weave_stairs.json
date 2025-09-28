@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:stonecutting",
+  "ingredient" : "minecraft:mud_bricks",
+  "group" : "stairs",
+  "result" : {
+    "count" : 1,
+    "id" : "mcwpaths:mud_brick_windmill_weave_stairs"
+  }
+}

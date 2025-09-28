@@ -1,0 +1,6 @@
+{
+  "model" : {
+    "type" : "minecraft:model",
+    "model" : "mcwpaths:block/stone/brick_basket_weave_paving"
+  }
+}

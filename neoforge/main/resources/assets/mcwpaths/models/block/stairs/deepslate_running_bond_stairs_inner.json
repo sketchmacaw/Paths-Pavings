@@ -1,0 +1,8 @@
+{
+  "parent" : "minecraft:block/inner_stairs",
+  "textures" : {
+    "bottom" : "mcwpaths:block/deepslate_running_bond",
+    "side" : "mcwpaths:block/deepslate_running_bond",
+    "top" : "mcwpaths:block/deepslate_running_bond"
+  }
+}

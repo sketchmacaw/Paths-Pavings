@@ -1,0 +1,6 @@
+{
+  "model" : {
+    "type" : "minecraft:model",
+    "model" : "mcwpaths:block/stairs/brick_running_bond_stairs"
+  }
+}

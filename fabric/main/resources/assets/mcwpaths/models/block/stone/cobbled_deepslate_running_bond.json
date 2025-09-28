@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mcwpaths:block/cobbled_deepslate_running_bond"
+  }
+}

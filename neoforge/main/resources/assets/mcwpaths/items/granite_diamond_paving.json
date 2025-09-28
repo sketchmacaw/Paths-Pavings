@@ -1,0 +1,6 @@
+{
+  "model" : {
+    "type" : "minecraft:model",
+    "model" : "mcwpaths:block/stone/granite_diamond_paving"
+  }
+}

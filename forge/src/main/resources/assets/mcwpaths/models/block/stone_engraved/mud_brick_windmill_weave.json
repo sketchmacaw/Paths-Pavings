@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/almost_full_cube",
+  "textures": {
+	  "particle": "mcwpaths:block/mud_brick_windmill_weave",
+    "all": "mcwpaths:block/mud_brick_windmill_weave"
+  }
+}

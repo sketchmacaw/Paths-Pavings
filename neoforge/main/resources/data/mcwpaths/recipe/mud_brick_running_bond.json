@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:stonecutting",
+  "ingredient" : "minecraft:mud_bricks",
+  "group" : "blocks",
+  "result" : {
+    "count" : 1,
+    "id" : "mcwpaths:mud_brick_running_bond"
+  }
+}

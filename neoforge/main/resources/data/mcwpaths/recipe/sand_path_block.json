@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:stonecutting",
+  "ingredient" : "minecraft:sand",
+  "group" : "blocks",
+  "result" : {
+    "count" : 1,
+    "id" : "mcwpaths:sand_path_block"
+  }
+}

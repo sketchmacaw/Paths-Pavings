@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/strewn3",
+  "textures": {
+	"particle": "minecraft:block/blackstone",
+    "0": "minecraft:block/blackstone"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwpaths:granite_diamond_paving",
+	  "mcwpaths:granite_basket_weave_paving",
+      "mcwpaths:granite_square_paving",
+	  "mcwpaths:granite_honeycomb_paving",
+	  "mcwpaths:granite_clover_paving",
+	  "mcwpaths:granite_dumble_paving",
+	  "mcwpaths:granite_running_bond_path",
+	  "mcwpaths:granite_running_bond_slab",
+	  "mcwpaths:granite_running_bond_stairs",
+	  "mcwpaths:granite_running_bond",
+	  "mcwpaths:granite_strewn_rocky_path",
+	  "mcwpaths:granite_windmill_weave_path",
+	  "mcwpaths:granite_windmill_weave_slab",
+	  "mcwpaths:granite_windmill_weave_stairs",
+	  "mcwpaths:granite_windmill_weave",
+	  "mcwpaths:granite_flagstone_path",
+	  "mcwpaths:granite_flagstone_slab",
+	  "mcwpaths:granite_flagstone_stairs",
+	  "mcwpaths:granite_flagstone",
+	  "mcwpaths:granite_crystal_floor_path",
+	  "mcwpaths:granite_crystal_floor_slab",
+	  "mcwpaths:granite_crystal_floor_stairs",
+	  "mcwpaths:granite_crystal_floor"
+	  
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:granite"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwpaths:granite_clover_paving"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:stonecutting",
+  "ingredient" : "minecraft:andesite",
+  "group" : "stairs",
+  "result" : {
+    "count" : 1,
+    "id" : "mcwpaths:andesite_crystal_floor_stairs"
+  }
+}

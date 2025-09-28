@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "mcwpaths",
+	"version": "1.1.1",
+	"name": "Macaw's Paths and Pavings",
+    "description": "Adds new vanila styled paths and pavings!",
+    "authors": [
+    "Sketch Macaw, Peachy Macaw"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/macaws-paths-and-pavings",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/mcwpaths/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mcwpaths.kikoz.MacawsPaths"
+    ]
+  },
+
+  	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	
+	"suggests": {
+		"another-mod": "*"
+	}
+}

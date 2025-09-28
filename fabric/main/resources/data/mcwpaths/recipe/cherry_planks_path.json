@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group" : "wooden_paths",
+  "ingredients": [
+    "minecraft:cherry_slab"
+  ],
+  "result": {
+    "count": 3,
+    "id": "mcwpaths:cherry_planks_path"
+  }
+}

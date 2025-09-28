@@ -1,0 +1,6 @@
+{
+  "model" : {
+    "type" : "minecraft:model",
+    "model" : "mcwpaths:block/wooden/bamboo_planks_path"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/strewn3",
+  "textures": {
+	"particle": "minecraft:block/andesite",
+    "0": "minecraft:block/andesite"
+  }
+}

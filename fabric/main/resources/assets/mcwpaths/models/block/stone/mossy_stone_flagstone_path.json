@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+	"particle": "mcwpaths:block/mossy_stone_flagstone",
+    "wool": "mcwpaths:block/mossy_stone_flagstone"
+  }
+}

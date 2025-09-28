@@ -1,0 +1,6 @@
+{
+    "variants": {                                                                        
+        "engraved=false":  { "model": "mcwpaths:block/stone/dark_prismarine_crystal_floor"},
+		"engraved=true":  { "model": "mcwpaths:block/stone_engraved/dark_prismarine_crystal_floor"}
+    }
+}

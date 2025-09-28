@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "mcwpaths:block/mossy_stone_crystal_floor",
+    "top": "mcwpaths:block/mossy_stone_crystal_floor",
+    "side": "mcwpaths:block/mossy_stone_crystal_floor"
+  }
+}

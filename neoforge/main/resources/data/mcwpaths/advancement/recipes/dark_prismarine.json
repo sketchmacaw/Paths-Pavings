@@ -1,0 +1,79 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwpaths:dark_prismarine_diamond_paving",
+	  "mcwpaths:dark_prismarine_basket_weave_paving",
+      "mcwpaths:dark_prismarine_square_paving",
+	  "mcwpaths:dark_prismarine_honeycomb_paving",
+	  "mcwpaths:dark_prismarine_clover_paving",
+	  "mcwpaths:dark_prismarine_dumble_paving",
+	  "mcwpaths:dark_prismarine_running_bond_path",
+	  "mcwpaths:dark_prismarine_running_bond_slab",
+	  "mcwpaths:dark_prismarine_running_bond_stairs",
+	  "mcwpaths:dark_prismarine_running_bond",
+	  "mcwpaths:dark_prismarine_strewn_rocky_path",
+	  "mcwpaths:dark_prismarine_windmill_weave_path",
+	  "mcwpaths:dark_prismarine_windmill_weave_slab",
+	  "mcwpaths:dark_prismarine_windmill_weave_stairs",
+	  "mcwpaths:dark_prismarine_windmill_weave",
+	  "mcwpaths:dark_prismarine_flagstone_path",
+	  "mcwpaths:dark_prismarine_flagstone_slab",
+	  "mcwpaths:dark_prismarine_flagstone_stairs",
+	  "mcwpaths:dark_prismarine_flagstone",
+	  "mcwpaths:dark_prismarine_crystal_floor_path",
+	  "mcwpaths:dark_prismarine_crystal_floor_slab",
+	  "mcwpaths:dark_prismarine_crystal_floor_stairs",
+	  "mcwpaths:dark_prismarine_crystal_floor"
+	  
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_prismarine"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwpaths:dark_prismarine_square_paving"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

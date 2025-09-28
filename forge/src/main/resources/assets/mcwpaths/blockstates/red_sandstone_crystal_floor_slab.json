@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mcwpaths:block/stone/red_sandstone_crystal_floor_slab"
+    },
+    "type=double": {
+      "model": "mcwpaths:block/stone/red_sandstone_crystal_floor"
+    },
+    "type=top": {
+      "model": "mcwpaths:block/stone/red_sandstone_crystal_floor_slab_top"
+    }
+  }
+}

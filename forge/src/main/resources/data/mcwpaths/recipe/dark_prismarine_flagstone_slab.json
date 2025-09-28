@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:stonecutting",
+  "ingredient" : "minecraft:dark_prismarine",
+  "group" : "slabs",
+  "result" : {
+    "count" : 2,
+    "id" : "mcwpaths:dark_prismarine_flagstone_slab"
+  }
+}

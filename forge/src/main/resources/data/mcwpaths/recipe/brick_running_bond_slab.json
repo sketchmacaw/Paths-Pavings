@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:stonecutting",
+  "ingredient" : "minecraft:bricks",
+  "group" : "slabs",
+  "result" : {
+    "count" : 2,
+    "id" : "mcwpaths:brick_running_bond_slab"
+  }
+}

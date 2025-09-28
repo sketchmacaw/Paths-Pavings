@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:stonecutting",
+  "ingredient" : "minecraft:podzol",
+  "group" : "blocks",
+  "result" : {
+    "count" : 1,
+    "id" : "mcwpaths:podzol_path_block"
+  }
+}

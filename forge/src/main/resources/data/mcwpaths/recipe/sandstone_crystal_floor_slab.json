@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:stonecutting",
+  "ingredient" : "minecraft:sandstone",
+  "group" : "slabs",
+  "result" : {
+    "count" : 2,
+    "id" : "mcwpaths:sandstone_crystal_floor_slab"
+  }
+}

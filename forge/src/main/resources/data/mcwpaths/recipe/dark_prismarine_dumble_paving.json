@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:stonecutting",
+  "ingredient" : "minecraft:dark_prismarine",
+  "group" : "paths",
+  "result" : {
+    "count" : 4,
+    "id" : "mcwpaths:dark_prismarine_dumble_paving"
+  }
+}

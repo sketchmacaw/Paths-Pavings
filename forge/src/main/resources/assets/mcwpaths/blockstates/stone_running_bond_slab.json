@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mcwpaths:block/stone/stone_running_bond_slab"
+    },
+    "type=double": {
+      "model": "mcwpaths:block/stone/stone_running_bond"
+    },
+    "type=top": {
+      "model": "mcwpaths:block/stone/stone_running_bond_slab_top"
+    }
+  }
+}

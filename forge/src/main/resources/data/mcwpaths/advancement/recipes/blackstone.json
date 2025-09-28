@@ -1,0 +1,70 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwpaths:blackstone_diamond_paving",
+	  "mcwpaths:blackstone_basket_weave_paving",
+      "mcwpaths:blackstone_square_paving",
+	  "mcwpaths:blackstone_honeycomb_paving",
+	  "mcwpaths:blackstone_clover_paving",
+	  "mcwpaths:blackstone_dumble_paving",
+	  "mcwpaths:blackstone_running_bond_path",
+	  "mcwpaths:blackstone_running_bond_slab",
+	  "mcwpaths:blackstone_running_bond_stairs",
+	  "mcwpaths:blackstone_running_bond",
+	  "mcwpaths:blackstone_strewn_rocky_path",
+	  "mcwpaths:blackstone_windmill_weave_path",
+	  "mcwpaths:blackstone_windmill_weave_slab",
+	  "mcwpaths:blackstone_windmill_weave_stairs",
+	  "mcwpaths:blackstone_windmill_weave",
+	  "mcwpaths:blackstone_flagstone_path",
+	  "mcwpaths:blackstone_flagstone_slab",
+	  "mcwpaths:blackstone_flagstone_stairs",
+	  "mcwpaths:blackstone_flagstone",
+	  "mcwpaths:blackstone_crystal_floor_path",
+	  "mcwpaths:blackstone_crystal_floor_slab",
+	  "mcwpaths:blackstone_crystal_floor_stairs",
+	  "mcwpaths:blackstone_crystal_floor"
+	  
+	  
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blackstone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwpaths:blackstone_clover_paving"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+

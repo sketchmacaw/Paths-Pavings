@@ -1,0 +1,6 @@
+{
+  "model" : {
+    "type" : "minecraft:model",
+    "model" : "mcwpaths:block/stairs/blackstone_windmill_weave_stairs"
+  }
+}

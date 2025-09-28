@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/strewn1",
+  "textures": {
+	"particle": "minecraft:block/terracotta",
+    "0": "minecraft:block/terracotta"
+  }
+}

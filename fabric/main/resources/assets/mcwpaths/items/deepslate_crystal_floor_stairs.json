@@ -1,0 +1,6 @@
+{
+  "model" : {
+    "type" : "minecraft:model",
+    "model" : "mcwpaths:block/stairs/deepslate_crystal_floor_stairs"
+  }
+}

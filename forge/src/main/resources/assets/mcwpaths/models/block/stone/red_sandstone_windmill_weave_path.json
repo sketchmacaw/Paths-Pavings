@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+	"particle": "mcwpaths:block/red_sandstone_windmill_weave",
+    "wool": "mcwpaths:block/red_sandstone_windmill_weave"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "model" : {
+    "type" : "minecraft:model",
+    "model" : "mcwpaths:block/strewn/brick_strewn_rocky_path1"
+  }
+}

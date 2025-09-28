@@ -1,0 +1,8 @@
+{
+  "parent" : "minecraft:block/inner_stairs",
+  "textures" : {
+    "bottom" : "mcwpaths:block/diorite_running_bond",
+    "side" : "mcwpaths:block/diorite_running_bond",
+    "top" : "mcwpaths:block/diorite_running_bond"
+  }
+}

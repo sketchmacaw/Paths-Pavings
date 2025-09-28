@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group" : "wooden_paths",
+  "ingredients": [
+    "minecraft:crimson_slab"
+  ],
+  "result": {
+    "count": 3,
+    "id": "mcwpaths:crimson_planks_path"
+  }
+}
