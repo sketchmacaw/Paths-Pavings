@@ -109,41 +109,41 @@ public class BlockInit {
 
 	// 1.0.3 Update
 	
-	public static final RegistryObject<Block> ANDESITE_RUNNING_BOND_PATH = BLOCKS.register("andesite_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
-	public static final RegistryObject<Block> ANDESITE_RUNNING_BOND_SLAB = BLOCKS.register("andesite_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
-	public static final RegistryObject<Block> ANDESITE_RUNNING_BOND = BLOCKS.register("andesite_running_bond", () -> new EngravedBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
+	public static final RegistryObject<Block> ANDESITE_RUNNING_BOND_PATH = BLOCKS.register("andesite_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.STONE)));
+	public static final RegistryObject<Block> ANDESITE_RUNNING_BOND_SLAB = BLOCKS.register("andesite_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.STONE)));
+	public static final RegistryObject<Block> ANDESITE_RUNNING_BOND = BLOCKS.register("andesite_running_bond", () -> new EngravedBlock(Block.Properties.copy(Blocks.STONE)));
 
-	public static final RegistryObject<Block> DIORITE_RUNNING_BOND_PATH = BLOCKS.register("diorite_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
-	public static final RegistryObject<Block> DIORITE_RUNNING_BOND_SLAB = BLOCKS.register("diorite_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
-	public static final RegistryObject<Block> DIORITE_RUNNING_BOND = BLOCKS.register("diorite_running_bond", () -> new EngravedBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
+	public static final RegistryObject<Block> DIORITE_RUNNING_BOND_PATH = BLOCKS.register("diorite_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.STONE)));
+	public static final RegistryObject<Block> DIORITE_RUNNING_BOND_SLAB = BLOCKS.register("diorite_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.STONE)));
+	public static final RegistryObject<Block> DIORITE_RUNNING_BOND = BLOCKS.register("diorite_running_bond", () -> new EngravedBlock(Block.Properties.copy(Blocks.STONE)));
 
-	public static final RegistryObject<Block> GRANITE_RUNNING_BOND_PATH = BLOCKS.register("granite_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
-	public static final RegistryObject<Block> GRANITE_RUNNING_BOND_SLAB = BLOCKS.register("granite_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
-	public static final RegistryObject<Block> GRANITE_RUNNING_BOND = BLOCKS.register("granite_running_bond", () -> new EngravedBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
+	public static final RegistryObject<Block> GRANITE_RUNNING_BOND_PATH = BLOCKS.register("granite_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.STONE)));
+	public static final RegistryObject<Block> GRANITE_RUNNING_BOND_SLAB = BLOCKS.register("granite_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.STONE)));
+	public static final RegistryObject<Block> GRANITE_RUNNING_BOND = BLOCKS.register("granite_running_bond", () -> new EngravedBlock(Block.Properties.copy(Blocks.STONE)));
 
-	public static final RegistryObject<Block> SANDSTONE_RUNNING_BOND_PATH = BLOCKS.register("sandstone_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
-	public static final RegistryObject<Block> SANDSTONE_RUNNING_BOND_SLAB = BLOCKS.register("sandstone_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
-	public static final RegistryObject<Block> SANDSTONE_RUNNING_BOND = BLOCKS.register("sandstone_running_bond", () -> new EngravedBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
+	public static final RegistryObject<Block> SANDSTONE_RUNNING_BOND_PATH = BLOCKS.register("sandstone_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.SANDSTONE)));
+	public static final RegistryObject<Block> SANDSTONE_RUNNING_BOND_SLAB = BLOCKS.register("sandstone_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.SANDSTONE)));
+	public static final RegistryObject<Block> SANDSTONE_RUNNING_BOND = BLOCKS.register("sandstone_running_bond", () -> new EngravedBlock(Block.Properties.copy(Blocks.SANDSTONE)));
 
-	public static final RegistryObject<Block> RED_SANDSTONE_RUNNING_BOND_PATH = BLOCKS.register("red_sandstone_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
-	public static final RegistryObject<Block> RED_SANDSTONE_RUNNING_BOND_SLAB = BLOCKS.register("red_sandstone_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
-	public static final RegistryObject<Block> RED_SANDSTONE_RUNNING_BOND = BLOCKS.register("red_sandstone_running_bond", () -> new EngravedBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
+	public static final RegistryObject<Block> RED_SANDSTONE_RUNNING_BOND_PATH = BLOCKS.register("red_sandstone_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.RED_SANDSTONE)));
+	public static final RegistryObject<Block> RED_SANDSTONE_RUNNING_BOND_SLAB = BLOCKS.register("red_sandstone_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.RED_SANDSTONE)));
+	public static final RegistryObject<Block> RED_SANDSTONE_RUNNING_BOND = BLOCKS.register("red_sandstone_running_bond", () -> new EngravedBlock(Block.Properties.copy(Blocks.RED_SANDSTONE)));
 
-	public static final RegistryObject<Block> BRICK_RUNNING_BOND_PATH = BLOCKS.register("brick_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
-	public static final RegistryObject<Block> BRICK_RUNNING_BOND_SLAB = BLOCKS.register("brick_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
-	public static final RegistryObject<Block> BRICK_RUNNING_BOND = BLOCKS.register("brick_running_bond", () -> new EngravedBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
+	public static final RegistryObject<Block> BRICK_RUNNING_BOND_PATH = BLOCKS.register("brick_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.BRICKS)));
+	public static final RegistryObject<Block> BRICK_RUNNING_BOND_SLAB = BLOCKS.register("brick_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.BRICKS)));
+	public static final RegistryObject<Block> BRICK_RUNNING_BOND = BLOCKS.register("brick_running_bond", () -> new EngravedBlock(Block.Properties.copy(Blocks.BRICKS)));
 
-	public static final RegistryObject<Block> STONE_RUNNING_BOND_PATH = BLOCKS.register("stone_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
-	public static final RegistryObject<Block> STONE_RUNNING_BOND_SLAB = BLOCKS.register("stone_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
-	public static final RegistryObject<Block> STONE_RUNNING_BOND = BLOCKS.register("stone_running_bond", () -> new EngravedBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
+	public static final RegistryObject<Block> STONE_RUNNING_BOND_PATH = BLOCKS.register("stone_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.STONE)));
+	public static final RegistryObject<Block> STONE_RUNNING_BOND_SLAB = BLOCKS.register("stone_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.STONE)));
+	public static final RegistryObject<Block> STONE_RUNNING_BOND = BLOCKS.register("stone_running_bond", () -> new EngravedBlock(Block.Properties.copy(Blocks.STONE)));
 
-	public static final RegistryObject<Block> MOSSY_STONE_RUNNING_BOND_PATH = BLOCKS.register("mossy_stone_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
-	public static final RegistryObject<Block> MOSSY_STONE_RUNNING_BOND_SLAB = BLOCKS.register("mossy_stone_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
-	public static final RegistryObject<Block> MOSSY_STONE_RUNNING_BOND = BLOCKS.register("mossy_stone_running_bond", () -> new EngravedBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
+	public static final RegistryObject<Block> MOSSY_STONE_RUNNING_BOND_PATH = BLOCKS.register("mossy_stone_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.STONE)));
+	public static final RegistryObject<Block> MOSSY_STONE_RUNNING_BOND_SLAB = BLOCKS.register("mossy_stone_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.STONE)));
+	public static final RegistryObject<Block> MOSSY_STONE_RUNNING_BOND = BLOCKS.register("mossy_stone_running_bond", () -> new EngravedBlock(Block.Properties.copy(Blocks.STONE)));
 
-	public static final RegistryObject<Block> BLACKSTONE_RUNNING_BOND_PATH = BLOCKS.register("blackstone_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
-	public static final RegistryObject<Block> BLACKSTONE_RUNNING_BOND_SLAB = BLOCKS.register("blackstone_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
-	public static final RegistryObject<Block> BLACKSTONE_RUNNING_BOND = BLOCKS.register("blackstone_running_bond", () -> new EngravedBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
+	public static final RegistryObject<Block> BLACKSTONE_RUNNING_BOND_PATH = BLOCKS.register("blackstone_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.BLACKSTONE)));
+	public static final RegistryObject<Block> BLACKSTONE_RUNNING_BOND_SLAB = BLOCKS.register("blackstone_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.BLACKSTONE)));
+	public static final RegistryObject<Block> BLACKSTONE_RUNNING_BOND = BLOCKS.register("blackstone_running_bond", () -> new EngravedBlock(Block.Properties.copy(Blocks.BLACKSTONE)));
 
 	public static final RegistryObject<Block> DARK_PRISMARINE_RUNNING_BOND_PATH = BLOCKS.register("dark_prismarine_running_bond_path", () -> new PathBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));
 	public static final RegistryObject<Block> DARK_PRISMARINE_RUNNING_BOND_SLAB = BLOCKS.register("dark_prismarine_running_bond_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.DARK_PRISMARINE)));

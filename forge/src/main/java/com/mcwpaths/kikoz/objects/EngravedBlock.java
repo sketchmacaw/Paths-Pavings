@@ -13,50 +13,51 @@ import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.World;
+import net.minecraft.tags.ItemTags;
+import net.minecraftforge.common.ToolType;
 
-public class FlattenedBlock  extends Block {
+public class EngravedBlock  extends Block {
 
-	public static final BooleanProperty FLATTENED = BooleanProperty.create("flattened");
+	public static final BooleanProperty ENGRAVED = BooleanProperty.create("engraved");
 	
 	protected static final VoxelShape CUBE = Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D);
 	protected static final VoxelShape ENGRAVE = Block.box(0.0D, 0.0D, 0.0D, 16.0D, 15.0D, 16.0D);
 	
-    public FlattenedBlock(Properties properties) {
+    public EngravedBlock(Properties properties) {
         super(properties);
-    	this.registerDefaultState(this.stateDefinition.any().setValue(FLATTENED, false));
+    	this.registerDefaultState(this.stateDefinition.any().setValue(ENGRAVED, false));
     }
 
     @Override
     public VoxelShape getShape(BlockState state, IBlockReader reader, BlockPos pos, ISelectionContext contx) {
-        boolean engraved = state.getValue(FLATTENED);
+        boolean engraved = state.getValue(ENGRAVED);
         return engraved ? ENGRAVE : CUBE;
     }
 
     @Override
     protected void createBlockStateDefinition(final StateContainer.Builder<Block, BlockState> builder) {
-	    builder.add(FLATTENED);
+	    builder.add(ENGRAVED);
 	}
-
+    
     @Override
     public ActionResultType use(BlockState state, World level, BlockPos pos, PlayerEntity player, Hand hand, BlockRayTraceResult hit) {
         ItemStack heldItem = player.getItemInHand(hand);
         Item item = heldItem.getItem();
 
-        if (item == Items.DIAMOND_SHOVEL || 
-        	    item == Items.GOLDEN_SHOVEL || 
-        	    item == Items.IRON_SHOVEL || 
-        	    item == Items.STONE_SHOVEL || 
-        	    item == Items.WOODEN_SHOVEL || 
-        	    item == Items.NETHERITE_SHOVEL) {
+        if (item.getToolTypes(heldItem).contains(ToolType.PICKAXE)) {
         	    if (level.isClientSide()) {
         	        return ActionResultType.SUCCESS;
         	    }
 
-            level.playSound(null, pos, SoundEvents.SHOVEL_FLATTEN, SoundCategory.BLOCKS, 1.0F, level.getRandom().nextFloat() * 0.1F + 0.9F);
+            level.playSound(null, pos, SoundEvents.UI_STONECUTTER_TAKE_RESULT, SoundCategory.BLOCKS, 1.0F, level.getRandom().nextFloat() * 0.1F + 0.9F);
 
-            BlockState newState = state.cycle(FLATTENED);
-            level.setBlock(pos, newState, 3); 
-            
+            BlockState newState = state.cycle(ENGRAVED);
+            level.setBlock(pos, newState, 3);
+
+            if (!player.isCreative()) {
+                heldItem.hurtAndBreak(1, player, p -> p.broadcastBreakEvent(hand));
+            }
+
             return ActionResultType.SUCCESS;
         }
         return ActionResultType.PASS;
