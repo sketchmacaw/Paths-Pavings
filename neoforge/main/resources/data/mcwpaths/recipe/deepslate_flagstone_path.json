@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:stonecutting",
+  "ingredient" : "minecraft:deepslate",
+  "group" : "paths",
+  "result" : {
+    "count" : 4,
+    "id" : "mcwpaths:deepslate_flagstone_path"
+  }
+}

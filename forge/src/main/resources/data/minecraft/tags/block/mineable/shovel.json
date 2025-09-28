@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+	"mcwpaths:dirt_path_block",
+	"mcwpaths:gravel_path_block",
+	"mcwpaths:podzol_path_block",
+	"mcwpaths:red_sand_path_block",
+	"mcwpaths:sand_path_block"
+  ]
+}

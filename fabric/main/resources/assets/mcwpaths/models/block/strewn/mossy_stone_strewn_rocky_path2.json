@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/strewn2",
+  "textures": {
+	"particle": "minecraft:block/mossy_cobblestone",
+    "0": "minecraft:block/mossy_cobblestone"
+  }
+}

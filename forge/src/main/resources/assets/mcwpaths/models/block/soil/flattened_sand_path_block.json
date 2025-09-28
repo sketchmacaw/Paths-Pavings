@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/almost_full_cube",
+  "textures": {
+	"particle": "mcwpaths:block/sand_path",
+    "all": "mcwpaths:block/sand_path"
+  }
+}

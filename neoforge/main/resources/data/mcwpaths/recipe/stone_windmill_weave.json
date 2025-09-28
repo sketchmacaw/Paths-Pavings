@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:stonecutting",
+  "ingredient" : "minecraft:stone_bricks",
+  "group" : "blocks",
+  "result" : {
+    "count" : 1,
+    "id" : "mcwpaths:stone_windmill_weave"
+  }
+}

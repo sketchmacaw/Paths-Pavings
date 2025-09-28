@@ -1,0 +1,6 @@
+{
+    "variants": {                                                                        
+        "engraved=false":  { "model": "mcwpaths:block/stone/andesite_flagstone"},
+		"engraved=true":  { "model": "mcwpaths:block/stone_engraved/andesite_flagstone"}
+    }
+}

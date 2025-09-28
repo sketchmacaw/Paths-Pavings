@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+	"particle": "mcwpaths:block/mud_brick_crystal_floor",
+    "wool": "mcwpaths:block/mud_brick_crystal_floor"
+  }
+}

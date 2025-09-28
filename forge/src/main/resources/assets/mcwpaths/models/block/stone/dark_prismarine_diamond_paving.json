@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/diamond",
+  "textures": {
+	"particle": "mcwpaths:block/dark_prismarine_diamond_paving",
+    "0": "mcwpaths:block/dark_prismarine_diamond_paving"
+  }
+}

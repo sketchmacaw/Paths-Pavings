@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:stonecutting",
+  "ingredient" : "minecraft:bricks",
+  "group" : "paths",
+  "result" : {
+    "count" : 4,
+    "id" : "mcwpaths:brick_basket_weave_paving"
+  }
+}

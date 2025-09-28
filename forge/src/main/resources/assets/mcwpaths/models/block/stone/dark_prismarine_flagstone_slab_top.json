@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "mcwpaths:block/dark_prismarine_flagstone",
+    "top": "mcwpaths:block/dark_prismarine_flagstone",
+    "side": "mcwpaths:block/dark_prismarine_flagstone"
+  }
+}

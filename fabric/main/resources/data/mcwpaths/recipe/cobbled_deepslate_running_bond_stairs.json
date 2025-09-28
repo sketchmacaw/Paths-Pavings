@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:stonecutting",
+  "ingredient" : "minecraft:cobbled_deepslate",
+  "group" : "stairs",
+  "result" : {
+    "count" : 1,
+    "id" : "mcwpaths:cobbled_deepslate_running_bond_stairs"
+  }
+}

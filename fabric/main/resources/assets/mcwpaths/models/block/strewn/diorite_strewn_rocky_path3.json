@@ -1,0 +1,7 @@
+{
+  "parent": "mcwpaths:block/strewn3",
+  "textures": {
+	"particle": "minecraft:block/diorite",
+    "0": "minecraft:block/diorite"
+  }
+}

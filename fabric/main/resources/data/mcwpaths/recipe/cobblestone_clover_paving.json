@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:stonecutting",
+  "ingredient" : "minecraft:cobblestone",
+  "group" : "paths",
+  "result" : {
+    "count" : 4,
+    "id" : "mcwpaths:cobblestone_clover_paving"
+  }
+}

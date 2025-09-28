@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:stonecutting",
+  "ingredient" : "minecraft:blackstone",
+  "group" : "stairs",
+  "result" : {
+    "count" : 1,
+    "id" : "mcwpaths:blackstone_flagstone_stairs"
+  }
+}

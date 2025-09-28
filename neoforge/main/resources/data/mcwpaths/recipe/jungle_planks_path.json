@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group" : "wooden_paths",
+  "ingredients": [
+    "minecraft:jungle_slab"
+  ],
+  "result": {
+    "count": 3,
+    "id": "mcwpaths:jungle_planks_path"
+  }
+}

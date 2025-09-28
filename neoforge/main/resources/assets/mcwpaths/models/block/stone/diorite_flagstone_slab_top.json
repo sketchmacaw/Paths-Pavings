@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "mcwpaths:block/diorite_flagstone",
+    "top": "mcwpaths:block/diorite_flagstone",
+    "side": "mcwpaths:block/diorite_flagstone"
+  }
+}

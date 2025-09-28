@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group" : "wooden_paths",
+  "ingredients": [
+    "minecraft:mangrove_slab"
+  ],
+  "result": {
+    "count": 3,
+    "id": "mcwpaths:mangrove_planks_path"
+  }
+}

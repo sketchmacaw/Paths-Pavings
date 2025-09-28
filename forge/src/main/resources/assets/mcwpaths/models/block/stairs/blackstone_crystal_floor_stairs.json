@@ -1,0 +1,8 @@
+{
+  "parent" : "minecraft:block/stairs",
+  "textures" : {
+    "bottom" : "mcwpaths:block/blackstone_crystal_floor",
+    "side" : "mcwpaths:block/blackstone_crystal_floor",
+    "top" : "mcwpaths:block/blackstone_crystal_floor"
+  }
+}

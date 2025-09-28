@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mcwpaths:block/stone/brick_flagstone_slab"
+    },
+    "type=double": {
+      "model": "mcwpaths:block/stone/brick_flagstone"
+    },
+    "type=top": {
+      "model": "mcwpaths:block/stone/brick_flagstone_slab_top"
+    }
+  }
+}

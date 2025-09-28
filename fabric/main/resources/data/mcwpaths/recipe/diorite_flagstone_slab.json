@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:stonecutting",
+  "ingredient" : "minecraft:diorite",
+  "group" : "slabs",
+  "result" : {
+    "count" : 2,
+    "id" : "mcwpaths:diorite_flagstone_slab"
+  }
+}

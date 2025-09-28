@@ -1,0 +1,6 @@
+{
+    "variants": {                                                                        
+        "engraved=false":  { "model": "mcwpaths:block/stone/sandstone_running_bond"},
+		"engraved=true":  { "model": "mcwpaths:block/stone_engraved/sandstone_running_bond"}
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "parent" : "minecraft:block/outer_stairs",
+  "textures" : {
+    "bottom" : "mcwpaths:block/diorite_crystal_floor",
+    "side" : "mcwpaths:block/diorite_crystal_floor",
+    "top" : "mcwpaths:block/diorite_crystal_floor"
+  }
+}

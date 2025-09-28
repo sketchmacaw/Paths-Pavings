@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group" : "wooden_paths",
+  "ingredients": [
+    "minecraft:warped_slab"
+  ],
+  "result": {
+    "count": 3,
+    "id": "mcwpaths:warped_planks_path"
+  }
+}
